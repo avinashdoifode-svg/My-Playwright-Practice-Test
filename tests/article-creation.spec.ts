@@ -78,7 +78,7 @@ test('Create a new article - full workflow', async ({ page }) => {
   await expect(page.locator('h1')).toContainText(randomTitle);
 
   // Step 8: Delete the article
-  const deleteButtonFinal = page.getByRole('button', { name: delete article/i });
+  const deleteButtonFinal = page.getByRole('button', { name1: delete article/i });
   await deleteButtonFinal.click();
 
   // Verify redirect to home page after deletion
