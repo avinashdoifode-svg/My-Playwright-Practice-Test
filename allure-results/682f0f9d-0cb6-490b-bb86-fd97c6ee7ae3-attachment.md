@@ -1,0 +1,209 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: article-creation.spec.ts >> Create a new article - full workflow
+- Location: tests/article-creation.spec.ts:3:5
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('link', { name: /edit article/i })
+Expected: visible
+Error: strict mode violation: getByRole('link', { name: /edit article/i }) resolved to 2 elements:
+    1) <a class="btn btn-sm btn-outline-secondary" href="/editor/Article-1780923528469-6218">…</a> aka getByRole('link', { name: ' Edit Article' }).first()
+    2) <a class="btn btn-sm btn-outline-secondary" href="/editor/Article-1780923528469-6218">…</a> aka getByRole('link', { name: ' Edit Article' }).nth(1)
+
+Call log:
+  - Expect "toBeVisible" with timeout 50000ms
+  - waiting for getByRole('link', { name: /edit article/i })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - generic:
+      - link "conduit" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link " New Article" [ref=e10] [cursor=pointer]:
+            - /url: /editor
+            - generic [ref=e11]: 
+            - text: New Article
+        - listitem [ref=e12]:
+          - link " Settings" [ref=e13] [cursor=pointer]:
+            - /url: /settings
+            - generic [ref=e14]: 
+            - text: Settings
+        - listitem [ref=e15]:
+          - link "pwtest" [ref=e16] [cursor=pointer]:
+            - /url: /profile/pwtest
+            - img [ref=e17]
+            - text: pwtest
+  - generic [ref=e19]:
+    - generic [ref=e21]:
+      - heading "Article 1780923528469" [level=1] [ref=e22]
+      - generic [ref=e24]:
+        - link [ref=e25] [cursor=pointer]:
+          - /url: /profile/pwtest
+          - img [ref=e26]
+        - generic [ref=e27]:
+          - link "pwtest" [ref=e28] [cursor=pointer]:
+            - /url: /profile/pwtest
+          - generic [ref=e29]: June 8, 2026
+        - generic [ref=e30]:
+          - link " Edit Article" [ref=e31] [cursor=pointer]:
+            - /url: /editor/Article-1780923528469-6218
+            - generic [ref=e32]: 
+            - text: Edit Article
+          - button " Delete Article" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: 
+            - text: Delete Article
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - paragraph [ref=e39]: "This is the body of the article. It was created automatically by Playwright test. Random ID: 78g1aj"
+        - list
+      - separator [ref=e40]
+      - generic [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: /profile/pwtest
+          - img [ref=e45]
+        - generic [ref=e46]:
+          - link "pwtest" [ref=e47] [cursor=pointer]:
+            - /url: /profile/pwtest
+          - generic [ref=e48]: June 8, 2026
+        - generic [ref=e49]:
+          - link " Edit Article" [ref=e50] [cursor=pointer]:
+            - /url: /editor/Article-1780923528469-6218
+            - generic [ref=e51]: 
+            - text: Edit Article
+          - button " Delete Article" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 
+            - text: Delete Article
+      - generic [ref=e56]:
+        - generic:
+          - list
+        - group [ref=e58]:
+          - textbox "Write a comment..." [ref=e60]
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - button "Post Comment" [ref=e63] [cursor=pointer]
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - link "conduit" [ref=e66] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e67]:
+        - text: © 2026. An interactive learning project from
+        - link "RealWorld OSS Project" [ref=e68] [cursor=pointer]:
+          - /url: https://github.com/gothinkster/realworld
+        - text: . Code licensed under MIT. Hosted by
+        - link "Bondar Academy" [ref=e69] [cursor=pointer]:
+          - /url: https://bondaracademy.com
+        - text: .
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | test('Create a new article - full workflow', async ({ page }) => {
+  4  |   // Step 1: Navigate to the application
+  5  |   await page.goto('https://conduit.bondaracademy.com/');
+  6  |   await expect(page).toHaveTitle(/Conduit/);
+  7  | 
+  8  |   // Step 2: Click "Sign In" button
+  9  |   const signInButton = page.getByRole('link', { name: /sign in/i });
+  10 |   await signInButton.click();
+  11 |   await expect(page).toHaveURL(/.*\/login/);
+  12 | 
+  13 |   // Step 3: Login with credentials
+  14 |   const emailInput = page.getByPlaceholder(/email/i);
+  15 |   const passwordInput = page.getByPlaceholder(/password/i);
+  16 |   const submitButton = page.getByRole('button', { name: /sign in/i });
+  17 | 
+  18 |   await emailInput.fill('pwtest@test.com');
+  19 |   await passwordInput.fill('Welcome2');
+  20 |   await submitButton.click();
+  21 | 
+  22 |   // Wait for redirect to home page and verify login
+  23 |   await expect(page).toHaveURL('https://conduit.bondaracademy.com/');
+  24 |   const usernameDisplay = page.locator('a.navbar-brand ~ ul li a');
+  25 |   await expect(usernameDisplay.first()).toBeVisible();
+  26 | 
+  27 |   // Step 4: Click "New Article" link
+  28 |   const newArticleButton = page.getByRole('link', { name: /new article/i });
+  29 |   await newArticleButton.click();
+  30 |   await expect(page).toHaveURL(/.*\/editor/);
+  31 | 
+  32 |   // Step 5: Fill out the form with random data
+  33 |   const randomTitle = `Article ${Date.now()}`;
+  34 |   const randomDescription = `Description for article created at ${new Date().toISOString()}`;
+  35 |   const randomBody = `This is the body of the article. It was created automatically by Playwright test. Random ID: ${Math.random().toString(36).substring(7)}`;
+  36 | 
+  37 |   const titleInput = page.getByPlaceholder(/article title/i);
+  38 |   const descriptionInput = page.getByPlaceholder(/what's this article about\?/i);
+  39 |   const bodyInput = page.getByPlaceholder(/write your article/i);
+  40 |   const publishButton = page.getByRole('button', { name: /publish article/i });
+  41 | 
+  42 |   await titleInput.fill(randomTitle);
+  43 |   await descriptionInput.fill(randomDescription);
+  44 |   await bodyInput.fill(randomBody);
+  45 |   await publishButton.click();
+  46 | 
+  47 |   // Verify article details page is opened
+  48 |   await expect(page).toHaveURL(/.*\/article\//);
+  49 |   await expect(page.locator('h1')).toContainText(randomTitle);
+  50 | 
+  51 |   // Verify Edit and Delete buttons are visible
+  52 |   const editButton = page.getByRole('link', { name: /edit article/i });
+  53 |   const deleteButton = page.getByRole('button', { name: /delete article/i });
+> 54 |   await expect(editButton).toBeVisible();
+     |                            ^ Error: expect(locator).toBeVisible() failed
+  55 |   await expect(deleteButton).toBeVisible();
+  56 | 
+  57 |   // Verify comments block is visible
+  58 |   const commentsBlock = page.locator('.comments-section, [class*="comment"]');
+  59 |   await expect(commentsBlock.first()).toBeVisible();
+  60 | 
+  61 |   // Step 6: Click "Home" link and verify Global Feed
+  62 |   const homeLink = page.getByRole('link', { name: /home/i });
+  63 |   await homeLink.click();
+  64 |   await expect(page).toHaveURL('https://conduit.bondaracademy.com/');
+  65 | 
+  66 |   // Verify Global Feed tab is active
+  67 |   const globalFeedTab = page.getByRole('button', { name: /global feed/i });
+  68 |   await expect(globalFeedTab).toHaveClass(/active/);
+  69 | 
+  70 |   // Verify the created article is in the list
+  71 |   const articlePreview = page.locator('[class*="article-preview"]').first();
+  72 |   const articleTitle = articlePreview.locator('h1, h2');
+  73 |   await expect(articleTitle).toContainText(randomTitle);
+  74 | 
+  75 |   // Step 7: Click on the newly created article
+  76 |   await articlePreview.click();
+  77 |   await expect(page).toHaveURL(/.*\/article\//);
+  78 |   await expect(page.locator('h1')).toContainText(randomTitle);
+  79 | 
+  80 |   // Step 8: Delete the article
+  81 |   const deleteButtonFinal = page.getByRole('button', { name: /delete article/i });
+  82 |   await deleteButtonFinal.click();
+  83 | 
+  84 |   // Verify redirect to home page after deletion
+  85 |   await expect(page).toHaveURL('https://conduit.bondaracademy.com/');
+  86 | });
+  87 | 
+```

@@ -1,0 +1,1281 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: mydemotest.spec.ts >> test
+- Location: tests/mydemotest.spec.ts:3:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: locator('#container')
+- Expected substring  -  1
++ Received string     + 15
+
+- ANKZWEE Plastic Wet and Dry Brush
++ Explore PlusLoginBecome a Seller More CartElectronicsTVs & AppliancesMenWomenBaby & KidsHome & FurnitureSports, Books & MoreFlightsOffer ZoneFiltersCATEGORIESHome Cleaning & Bathroom AccessoriesCleaning SuppliesMop Head & RefillWiperMop SetMopsDustbinsShow 12 moreBrandCustomer Ratings4★ & above3★ & abovePrice.......Min5001000150020003000to50010001500200030003000+season_marker?DiscountOffersBuy More, Save MoreSpecial PriceNew ArrivalsGST Invoice AvailableAvailabilityHomeHome Cleaning & Bathroom AccessoriesCleaning SuppliesMops ,Brushes ,Cleaning Clothes ,Home Cleaning & Bathroom Accessories ,Dustbins ,Home Cleaning Sets ,Brooms ,Dusters ,Toilet Brushes ,Cleaning WipesCleaning Supplies(Showing 1 – 40 products of 10,120 products)Sort ByPopularityPrice -- Low to HighPrice -- High to LowNewest FirstELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUNETRI-PRO Clear Plastic Broom Holder4 Holders4.9(23)₹448₹99955% offAnasis Cleaning Brush for Cars Cleaning Surface, Multip...Black, Grey4.3(7)₹217₹59963% offBestsellerPrestige Alpha with 2 Microfiber heads 360 Degree Spinn...Grey, Blue4.1(1,09,078)₹849₹1,59546% offOnly 5 leftELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUPC Microfiber Bucket 360? Flexible Head|Floor Cleaning...Green4(18,544)₹1,096₹2,49956% offHot DealPALAK Gamma with 360° Spinner 2 Microfiber heads & Twin...Orange4.4(4,253)₹500₹1,79772% offOnly few leftFlipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COL...Multicolor4(1,12,303)₹646₹2,19970% offHot DealDM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...Free Size Pack of 1004(21)₹90₹39977% offHot DealGabani fashion trash can with lid Plastic DustbinBlack₹250₹49949% offOnly few leftZARQITO Microfiber 100 inch ExtensionPole with Cleaning...3.9(25,481)₹155₹89982% offHot DealVEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cl...Medium, Pack of 204(415)₹118₹69983% offHot DealSpotzero by Milton Prime Spin Mop Stainless Steel Wring...4.3(25,226)₹1,449₹2,99651% offPrestige PSB 10 Magic Mop with Steel Winger and 2 Mop-h...Blue4.2(4,717)₹1,250₹2,59551% offOnly 1 leftUNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads ...White4.1(16)₹719₹1,79960% offShivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wr...Multicolor3.9(41,639)₹450₹2,99984% offHot DealMEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry ...4 Units3.9(1,109)₹110₹59981% offHot DealVAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendabl...Multicolor3.8(326)₹164₹69976% offHot Dealfreedomall durable dustbin lightweight dustbin modern d...Green₹362₹79954% offOnly few leftFlipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Ab...Multicolor4.1(54,975)₹562₹1,99971% offOnly few leftINASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUS...Multicolor4(1,032)₹154₹59974% offDM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Late...Free Size Pack of 2003.9(4,197)₹111₹39972% offHot DealWAYMORE Pride Mop floor cleaner pocha with steel wringe...Multicolor3.9(2,661)₹900₹3,49974% offHot DealSINGH ENTERPRISES Stainless Steel DustpanSteel₹225₹59962% offOnly few leftKLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & D...Multicolor3.6(110)₹141₹59976% offHANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large ...Blue4(22)₹1,526₹2,50038% offHot DealDR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Clo...20 Units4.2(90)₹154₹49969% offHot DealKITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale...Small, Pack of 53.7(3,113)₹130₹39967% offHot DealSpotzero by Milton eELITE SPIN MOP Mop SetMulticolor4.3(20,571)₹1,199₹1,89936% offOnly 1 leftTankit 2 Refills Mop Set Cleaning Bucket Mop Blue Class...Blue3.9(2,653)₹440₹1,19963% offOnly few leftORIDOR Car Washing and Detailing Kit with Microfiber Du...Pack of 54.2(60)₹297₹1,19975% offHot DealVEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brus...Multicolor3.4(16,424)₹162₹89981% offHot DealRadheTrade RT-Dustpan Plastic, Stainless Steel DustpanMulticolor4.3(450)₹435₹1,29966% offHot DealKanak Plastic Wet and Dry BrushBlue3.6(6,847)₹178₹59970% offOnly few leftVAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Gl...Multicolor3.6(94)₹141₹99985% offVINTAGE CREATION Premium Car Interior Cleaning Wipes 80...White₹136₹29954% offOnly few leftNEYU Multifunctional Magic Broom Sweeper, 180-Degree Ro...Grey3.8(1,451)₹227₹99977% offHot DealSHREEHARI elite mop Mop SetGrey3.4(441)₹264₹67961% offSpotzero by Milton ROYALE SPIN Mop SetGreen, Grey4.4(58,367)₹1,599₹2,69940% offOnly 3 leftKlenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Che...Regular, Pack of 44.3(4)₹232₹99976% offOnly few leftPage 1 of 25312345678910NextDid you find what you were looking for?YesNoReviews for Popular Cleaning Supplies1. Prestige Alpha with 2 Micro...4.11,09,078 Ratings&5,950 Reviews₹84946% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review3Just okayWorking fine but quality is not expected wellRead full reviewtushar machhiCertified BuyerJul, 2023Recent Review4Really NiceNice and light weight easy to useRead full reviewNitesh KarnCertified Buyer1 day ago2. HANBAAZ HANBAZ Water Tank C...422 Ratings&3 Reviews₹1,52638% offType: BrushBrush Material: PlasticHandle Material: Steel, IronMost Helpful Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days agoRecent Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days ago3. DM SPECIALLY FOR SPECIALIST...3.94,197 Ratings&171 Reviews₹11172% offPack of: 200Free SizeUsage Type: Wet and DryMost Helpful Review5Super!Khup chan thank u so muchRead full reviewMonali DhayagudeCertified Buyer7 months agoRecent Review1UnsatisfactoryVery small size it's for children not for adultsRead full reviewSima Srivastava Certified BuyerToday4. Flipkart SmartBuy SPRINKLER...41,12,303 Ratings&7,346 Reviews₹64670% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review5Must buy!It's a very good product and it's build quality is best non as other ..... I am fully satisfied with this product.... ❤️Read full reviewBicky KumarCertified BuyerJun, 2024Recent Review2Slightly disappointedThe bucket is ok but the berring of pipe is not working properly, quality is poor and you wrote flipkart made , this thing decrease trust on the items on whi...Read full reviewRaj ChaudharyCertified Buyer1 day ago5. ZARQITO Microfiber 100 inch...3.925,481 Ratings&1,276 Reviews₹15582% offType: DusterCleaning Type: Wet and DryBrush Material: MICROBIFERMost Helpful Review4DelightfulNo need to take risk cleaning the high raise area many more..best is duster easily remove the dust from every where..it's works efficiently.Read full reviewSabiyaCertified BuyerMar, 2023Recent Review5Super!Very very very good productRead full reviewSushanta paramanikCertified Buyer3 days agoCleaning Supplies Price ListCleaning SuppliesPricePALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop SetRs. 500RadheTrade RT-Dustpan Plastic, Stainless Steel DustpanRs. 435Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop SetRs. 1449Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge WipeRs. 232VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry BrushRs. 162Kanak Plastic Wet and Dry BrushRs. 178KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry MopRs. 141Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop SetRs. 646VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub PadRs. 118DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning ClothRs. 154This data was last updated on 2026/06/08Related SearchesHome Cleaning Bathroom AccessoriesMops | Dustbins | Brooms | Scrub Pads | Brushes | Cleaning Gloves | Cleaning Clothes | Toilet Brushes | Dusters | Mop Set | Home Cleaning Sets | Broom Holders | Dustpans | Cleaning Wipes | Mop Head Refill | WiperCloth Dryer Stands | Buckets | Kitchen Containers | Mats | Garbage BagsTrending SearchesElectric Spin Scrubber | Smart Waste Bins | Floor Cleaning MachineBuy Housekeeping materials and Cleaning Equipments online:Housekeeping materials like cleaning equipment, like laundry and washing equipment, ladders, stools, bathroom supplies and many more are necessities that every body needs to have at their homes. We often need a number of materials and supplies that can help you manage and clean your home much faster and efficiently. The place where you live remains organized and neat and this makes it easy for you to manage things at home. For instance, if you have a cloth dryer stand, laundry basket and such items at home, your clothes will not lie around and will be placed at one spot which makes it easy for you to pick them and organize them without much confusion. Prestige, Thunderfit, Spaze and the like are brands that manufacture strong, durable and good quality equipment that can be bought online at low prices. Variety of home cleaning appliances and bathroom accessories for your house:The very basic tool that every person uses at home to clean the floor of the house, unless it is laid with carpet, will be a broom. Once you clean the floor with a broom and clear it off all the dust and dirt, further cleaning happens by wiping with water and what you need for that is a mop set. Zibo, Samrah, Vimal, Hokipo are brands from where you can buy brooms and wipes or mop sets online. For cleaning other things at home like your furniture, upholstery, gas stoves, etc, you can buy plastic wet and dry brushes, scrub pads, cleaning clothes and the like. Cover your hands and keep them clean by wearing wet or dry hand gloves while cleaning. People shop for dustbins online under different sized based on where they plan to place it. Bigger plastic dustbins are placed in the kitchen, the smaller ones can be placed in the bedrooms and other rooms so that it becomes convenient for you to dispose off the garbage into them.A plethora of different types of bathroom accessories are available online. They come in different colours and designs and you can choose appropriate accessories that will go with the colour of the floors, curtains and wall tiles of your bathroom. Buy buckets, tooth brush holders, steel and plastic wall shelves in pink, blue, green and many other colours to suit your bathrooms from brands like Tatay, Zoom, Royal Indian Craft and the like. Laundry equipment, kitchen supplies and other accessories for your home:Washing materials and equipment for cleaning and laundry are available online at cheap prices. All that you need to do your laundry starting from the water tube for the washing machine, the water tap adaptor, clothes dryer stand, clothesline to the washing products like Surf, Tide and stain removers like Vanish are all available here. You can also buy kitchen supplies like dish cleaning gel, sponge holder , etc. from Amway, Fairy, Niks Cleanmax, Whirlpool among others.Shop for Housekeeping and Laundry Products Online:Housekeeping and laundry products comprise of detergents, surfactants, mops, toilet brushes, scrubbers, brooms, toilet paper, mop sets, and so on. These products are formulated to meet the demands of stain and soil removal, bleaching, fabric softening, conditioning,etc. They are also designed to meet the requirements under various types of water, temperatures, and different usage conditions as well. And almost all of us use these products on a regular basis, so the demand for them is always high. And, depending on your requirement, you can shop for housekeeping and laundry products online. This way, you can take all the time you want in going through all the products and materials available online so that you can purchase those items that will benefit you the most. And by shopping online for them, you can also get them delivered to your doorstep, which ensures that you don’t even have to step outside the comfort of your home to make your purchases. Make sure to use relevant keywords while searching for housekeeping and laundry products online so that you can get your hands on the best results. You can use keywords such as ‘vacuum storage bags’, ‘bathroom accessories’, ‘kitchen and household items’, and so much more. Let’s talk about some of the housekeeping and laundry products that you can shop for online so that you don’t have to waste time, energy, and money on something that you can easily get hand-delivered to you almost immediately. Examples of Housekeeping and Laundry Products 1. Bleaches: The two most common types of bleaches (chlorine and oxygen) are available in the market as laundry cleaning aids. They are used to help you remove stubborn stains and brighten fabrics so that they can look almost as good as new. Bleaches convert the stains and soils into colourless, soluble particles that can be removed with the help of detergents, and washed away with water. Liquid chlorine bleach can be used to disinfect and deodorise fabrics for hygienic use. And, oxygen bleaches are colour-safe and gentle on almost all washable fabrics.You can find popular brands of bleaches online such as Rin, Clorox, Naturalcare, and many more. 2. Carpet shampoos: These products are designed for wet application only. So, if you’re a hundred percent sure that your carpets are marked safe for wet wash, you can go ahead and use these products. Carpet shampoos are highly effective in removing dirt, grease, coffee, ink stains, and more. These products also work as odour eliminators and neutralise harsh and unpleasant odours. This leaves your carpets smelling fresh. You can find different brands of carpet shampoos online such as Natural Care, Dazlo, Astonish, Zep, CX, and so much more. 3. Restroom cleaning system/ brush, sprays and inspection kits: You can find these kits at affordable prices online. They are highly reliable and durable as well - so you don’t have to worry about constantly replacing them. These kits are manufactured using good quality raw materials to ensure that you get complete value for the money you spend. So, shop for housekeeping and laundry products online to rid your surroundings of pesky stains, odours, and discolouration. Happy shopping! Trending Kitchen & Household Items:Pressure Cookers & PansStoves & HobsFlasks & CasserolesLights & LampsTableware & CutleryCoffee MugsBar & GlasswareContainers & BottlesHousekeeping & LaundryDinnerware & CrockeryCookwareTrending Kitchen & Household Items Brands:Wonderchef Kitchen & Household ItemsMilton Kitchen & Household ItemsTupperware Kitchen & Household ItemsCello Kitchen & Household ItemsBorosil Kitchen & Household ItemsPrestige Kitchen & Household ItemsABOUTContact UsAbout UsCareersFlipkart StoriesPressCorporate InformationGROUP COMPANIESMyntraCleartripShopsyHELPPaymentsShippingCancellation & ReturnsFAQCONSUMER POLICYCancellation & ReturnsTerms Of UseSecurityPrivacySitemapGrievance RedressalEPR ComplianceFSSAI Food Safety Connect AppMail Us:Flipkart Internet Private Limited, 
++  Buildings Alyssa, Begonia & 
++  Clove Embassy Tech Village, 
++  Outer Ring Road, Devarabeesanahalli Village, 
++  Bengaluru, 560103, 
++  Karnataka, India
++ SocialRegistered Office Address:Flipkart Internet Private Limited, 
++  Buildings Alyssa, Begonia & 
++  Clove Embassy Tech Village, 
++  Outer Ring Road, Devarabeesanahalli Village, 
++  Bengaluru, 560103, 
++  Karnataka, India 
++  CIN : U51109KA2012PTC066107 
++  Telephone: 044-45614700 / 044-67415800
++ Become a SellerAdvertiseGift CardsHelp Center© 2007-2026 Flipkart.comBack to top
+
+Call log:
+  - Expect "toContainText" with timeout 50000ms
+  - waiting for locator('#container')
+    - waiting for" https://www.flipkart.com/home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxl…" navigation to finish...
+    - navigated to "https://www.flipkart.com/home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxl…"
+    2 × locator resolved to <div id="container">…</div>
+      - unexpected value "Explore PlusLoginBecome a Seller More CartFiltersCATEGORIESHome Cleaning & Bathroom AccessoriesCleaning SuppliesMop Head & RefillWiperMop SetMopsDustbinsShow 12 moreBrandCustomer Ratings4★ & above3★ & abovePrice.......Min5001000150020003000to50010001500200030003000+season_marker?DiscountOffersBuy More, Save MoreSpecial PriceNew ArrivalsGST Invoice AvailableAvailabilityHomeHome Cleaning & Bathroom AccessoriesCleaning SuppliesMops ,Brushes ,Cleaning Clothes ,Home Cleaning & Bathroom Accessories ,Dustbins ,Home Cleaning Sets ,Brooms ,Dusters ,Toilet Brushes ,Cleaning WipesCleaning Supplies(Showing 1 – 40 products of 10,120 products)Sort ByPopularityPrice -- Low to HighPrice -- High to LowNewest FirstELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUNETRI-PRO Clear Plastic Broom Holder4 Holders4.9(23)₹448₹99955% offAnasis Cleaning Brush for Cars Cleaning Surface, Multip...Black, Grey4.3(7)₹217₹59963% offPrestige Alpha with 2 Microfiber heads 360 Degree Spinn...Grey, Blue4.1(1,09,078)₹849₹1,59546% offOnly 5 leftELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUPC Microfiber Bucket 360? Flexible Head|Floor Cleaning...Green4(18,544)₹1,096₹2,49956% offHot DealPALAK Gamma with 360° Spinner 2 Microfiber heads & Twin...Orange4.4(4,253)₹500₹1,79772% offOnly few leftFlipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COL...Multicolor4(1,12,303)₹646₹2,19970% offHot DealDM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...Free Size Pack of 1004(21)₹90₹39977% offHot DealGabani fashion trash can with lid Plastic DustbinBlack₹250₹49949% offOnly few leftZARQITO Microfiber 100 inch ExtensionPole with Cleaning...3.9(25,481)₹155₹89982% offHot DealVEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cl...Medium, Pack of 204(415)₹118₹69983% offHot DealSpotzero by Milton Prime Spin Mop Stainless Steel Wring...4.3(25,226)₹1,449₹2,99651% offPrestige PSB 10 Magic Mop with Steel Winger and 2 Mop-h...Blue4.2(4,717)₹1,250₹2,59551% offOnly 1 leftUNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads ...White4.1(16)₹719₹1,79960% offShivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wr...Multicolor3.9(41,639)₹450₹2,99984% offHot DealMEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry ...4 Units3.9(1,109)₹110₹59981% offHot DealVAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendabl...Multicolor3.8(326)₹164₹69976% offHot Dealfreedomall durable dustbin lightweight dustbin modern d...Green₹362₹79954% offOnly few leftFlipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Ab...Multicolor4.1(54,975)₹562₹1,99971% offOnly few leftINASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUS...Multicolor4(1,032)₹154₹59974% offDM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Late...Free Size Pack of 2003.9(4,197)₹111₹39972% offHot DealWAYMORE Pride Mop floor cleaner pocha with steel wringe...Multicolor3.9(2,661)₹900₹3,49974% offHot DealSINGH ENTERPRISES Stainless Steel DustpanSteel₹225₹59962% offOnly few leftKLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & D...Multicolor3.6(110)₹141₹59976% offHANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large ...Blue4(22)₹1,526₹2,50038% offHot DealDR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Clo...20 Units4.2(90)₹154₹49969% offHot DealKITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale...Small, Pack of 53.7(3,113)₹130₹39967% offHot DealSpotzero by Milton eELITE SPIN MOP Mop SetMulticolor4.3(20,571)₹1,199₹1,89936% offOnly 1 leftTankit 2 Refills Mop Set Cleaning Bucket Mop Blue Class...Blue3.9(2,653)₹440₹1,19963% offOnly few leftORIDOR Car Washing and Detailing Kit with Microfiber Du...Pack of 54.2(60)₹297₹1,19975% offHot DealVEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brus...Multicolor3.4(16,424)₹162₹89981% offHot DealRadheTrade RT-Dustpan Plastic, Stainless Steel DustpanMulticolor4.3(450)₹435₹1,29966% offHot DealKanak Plastic Wet and Dry BrushBlue3.6(6,847)₹178₹59970% offOnly few leftVAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Gl...Multicolor3.6(94)₹141₹99985% offVINTAGE CREATION Premium Car Interior Cleaning Wipes 80...White₹136₹29954% offOnly few leftNEYU Multifunctional Magic Broom Sweeper, 180-Degree Ro...Grey3.8(1,451)₹227₹99977% offHot DealSHREEHARI elite mop Mop SetGrey3.4(441)₹264₹67961% offSpotzero by Milton ROYALE SPIN Mop SetGreen, Grey4.4(58,367)₹1,599₹2,69940% offOnly 3 leftKlenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Che...Regular, Pack of 44.3(4)₹232₹99976% offOnly few leftPage 1 of 25312345678910NextDid you find what you were looking for?YesNoReviews for Popular Cleaning Supplies1. Prestige Alpha with 2 Micro...4.11,09,078 Ratings&5,950 Reviews₹84946% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review3Just okayWorking fine but quality is not expected wellRead full reviewtushar machhiCertified BuyerJul, 2023Recent Review4Really NiceNice and light weight easy to useRead full reviewNitesh KarnCertified Buyer1 day ago2. HANBAAZ HANBAZ Water Tank C...422 Ratings&3 Reviews₹1,52638% offType: BrushBrush Material: PlasticHandle Material: Steel, IronMost Helpful Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days agoRecent Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days ago3. DM SPECIALLY FOR SPECIALIST...3.94,197 Ratings&171 Reviews₹11172% offPack of: 200Free SizeUsage Type: Wet and DryMost Helpful Review5Super!Khup chan thank u so muchRead full reviewMonali DhayagudeCertified Buyer7 months agoRecent Review1UnsatisfactoryVery small size it's for children not for adultsRead full reviewSima Srivastava Certified BuyerToday4. Flipkart SmartBuy SPRINKLER...41,12,303 Ratings&7,346 Reviews₹64670% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review5Must buy!It's a very good product and it's build quality is best non as other ..... I am fully satisfied with this product.... ❤️Read full reviewBicky KumarCertified BuyerJun, 2024Recent Review2Slightly disappointedThe bucket is ok but the berring of pipe is not working properly, quality is poor and you wrote flipkart made , this thing decrease trust on the items on whi...Read full reviewRaj ChaudharyCertified Buyer1 day ago5. ZARQITO Microfiber 100 inch...3.925,481 Ratings&1,276 Reviews₹15582% offType: DusterCleaning Type: Wet and DryBrush Material: MICROBIFERMost Helpful Review4DelightfulNo need to take risk cleaning the high raise area many more..best is duster easily remove the dust from every where..it's works efficiently.Read full reviewSabiyaCertified BuyerMar, 2023Recent Review5Super!Very very very good productRead full reviewSushanta paramanikCertified Buyer3 days agoCleaning Supplies Price ListCleaning SuppliesPricePALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop SetRs. 500RadheTrade RT-Dustpan Plastic, Stainless Steel DustpanRs. 435Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop SetRs. 1449Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge WipeRs. 232VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry BrushRs. 162Kanak Plastic Wet and Dry BrushRs. 178KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry MopRs. 141Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop SetRs. 646VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub PadRs. 118DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning ClothRs. 154This data was last updated on 2026/06/08Related SearchesHome Cleaning Bathroom AccessoriesMops | Dustbins | Brooms | Scrub Pads | Brushes | Cleaning Gloves | Cleaning Clothes | Toilet Brushes | Dusters | Mop Set | Home Cleaning Sets | Broom Holders | Dustpans | Cleaning Wipes | Mop Head Refill | WiperCloth Dryer Stands | Buckets | Kitchen Containers | Mats | Garbage BagsTrending SearchesElectric Spin Scrubber | Smart Waste Bins | Floor Cleaning MachineBuy Housekeeping materials and Cleaning Equipments online:Housekeeping materials like cleaning equipment, like laundry and washing equipment, ladders, stools, bathroom supplies and many more are necessities that every body needs to have at their homes. We often need a number of materials and supplies that can help you manage and clean your home much faster and efficiently. The place where you live remains organized and neat and this makes it easy for you to manage things at home. For instance, if you have a cloth dryer stand, laundry basket and such items at home, your clothes will not lie around and will be placed at one spot which makes it easy for you to pick them and organize them without much confusion. Prestige, Thunderfit, Spaze and the like are brands that manufacture strong, durable and good quality equipment that can be bought online at low prices. Variety of home cleaning appliances and bathroom accessories for your house:The very basic tool that every person uses at home to clean the floor of the house, unless it is laid with carpet, will be a broom. Once you clean the floor with a broom and clear it off all the dust and dirt, further cleaning happens by wiping with water and what you need for that is a mop set. Zibo, Samrah, Vimal, Hokipo are brands from where you can buy brooms and wipes or mop sets online. For cleaning other things at home like your furniture, upholstery, gas stoves, etc, you can buy plastic wet and dry brushes, scrub pads, cleaning clothes and the like. Cover your hands and keep them clean by wearing wet or dry hand gloves while cleaning. People shop for dustbins online under different sized based on where they plan to place it. Bigger plastic dustbins are placed in the kitchen, the smaller ones can be placed in the bedrooms and other rooms so that it becomes convenient for you to dispose off the garbage into them.A plethora of different types of bathroom accessories are available online. They come in different colours and designs and you can choose appropriate accessories that will go with the colour of the floors, curtains and wall tiles of your bathroom. Buy buckets, tooth brush holders, steel and plastic wall shelves in pink, blue, green and many other colours to suit your bathrooms from brands like Tatay, Zoom, Royal Indian Craft and the like. Laundry equipment, kitchen supplies and other accessories for your home:Washing materials and equipment for cleaning and laundry are available online at cheap prices. All that you need to do your laundry starting from the water tube for the washing machine, the water tap adaptor, clothes dryer stand, clothesline to the washing products like Surf, Tide and stain removers like Vanish are all available here. You can also buy kitchen supplies like dish cleaning gel, sponge holder , etc. from Amway, Fairy, Niks Cleanmax, Whirlpool among others.Shop for Housekeeping and Laundry Products Online:Housekeeping and laundry products comprise of detergents, surfactants, mops, toilet brushes, scrubbers, brooms, toilet paper, mop sets, and so on. These products are formulated to meet the demands of stain and soil removal, bleaching, fabric softening, conditioning,etc. They are also designed to meet the requirements under various types of water, temperatures, and different usage conditions as well. And almost all of us use these products on a regular basis, so the demand for them is always high. And, depending on your requirement, you can shop for housekeeping and laundry products online. This way, you can take all the time you want in going through all the products and materials available online so that you can purchase those items that will benefit you the most. And by shopping online for them, you can also get them delivered to your doorstep, which ensures that you don’t even have to step outside the comfort of your home to make your purchases. Make sure to use relevant keywords while searching for housekeeping and laundry products online so that you can get your hands on the best results. You can use keywords such as ‘vacuum storage bags’, ‘bathroom accessories’, ‘kitchen and household items’, and so much more. Let’s talk about some of the housekeeping and laundry products that you can shop for online so that you don’t have to waste time, energy, and money on something that you can easily get hand-delivered to you almost immediately. Examples of Housekeeping and Laundry Products 1. Bleaches: The two most common types of bleaches (chlorine and oxygen) are available in the market as laundry cleaning aids. They are used to help you remove stubborn stains and brighten fabrics so that they can look almost as good as new. Bleaches convert the stains and soils into colourless, soluble particles that can be removed with the help of detergents, and washed away with water. Liquid chlorine bleach can be used to disinfect and deodorise fabrics for hygienic use. And, oxygen bleaches are colour-safe and gentle on almost all washable fabrics.You can find popular brands of bleaches online such as Rin, Clorox, Naturalcare, and many more. 2. Carpet shampoos: These products are designed for wet application only. So, if you’re a hundred percent sure that your carpets are marked safe for wet wash, you can go ahead and use these products. Carpet shampoos are highly effective in removing dirt, grease, coffee, ink stains, and more. These products also work as odour eliminators and neutralise harsh and unpleasant odours. This leaves your carpets smelling fresh. You can find different brands of carpet shampoos online such as Natural Care, Dazlo, Astonish, Zep, CX, and so much more. 3. Restroom cleaning system/ brush, sprays and inspection kits: You can find these kits at affordable prices online. They are highly reliable and durable as well - so you don’t have to worry about constantly replacing them. These kits are manufactured using good quality raw materials to ensure that you get complete value for the money you spend. So, shop for housekeeping and laundry products online to rid your surroundings of pesky stains, odours, and discolouration. Happy shopping! Trending Kitchen & Household Items:Pressure Cookers & PansStoves & HobsFlasks & CasserolesLights & LampsTableware & CutleryCoffee MugsBar & GlasswareContainers & BottlesHousekeeping & LaundryDinnerware & CrockeryCookwareTrending Kitchen & Household Items Brands:Wonderchef Kitchen & Household ItemsMilton Kitchen & Household ItemsTupperware Kitchen & Household ItemsCello Kitchen & Household ItemsBorosil Kitchen & Household ItemsPrestige Kitchen & Household ItemsABOUTContact UsAbout UsCareersFlipkart StoriesPressCorporate InformationGROUP COMPANIESMyntraCleartripShopsyHELPPaymentsShippingCancellation & ReturnsFAQCONSUMER POLICYCancellation & ReturnsTerms Of UseSecurityPrivacySitemapGrievance RedressalEPR ComplianceFSSAI Food Safety Connect AppMail Us:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India
+SocialRegistered Office Address:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India 
+ CIN : U51109KA2012PTC066107 
+ Telephone: 044-45614700 / 044-67415800
+Become a SellerAdvertiseGift CardsHelp Center© 2007-2026 Flipkart.comBack to top"
+    - locator resolved to <div id="container">…</div>
+    - unexpected value "Explore PlusLoginLOGIN New customer?Sign UpBecome a Seller More CartElectronicsTVs & AppliancesMenWomenBaby & KidsHome & FurnitureSports, Books & MoreFlightsOffer ZoneFiltersCATEGORIESHome Cleaning & Bathroom AccessoriesCleaning SuppliesMop Head & RefillWiperMop SetMopsDustbinsShow 12 moreBrandCustomer Ratings4★ & above3★ & abovePrice.......Min5001000150020003000to50010001500200030003000+season_marker?DiscountOffersBuy More, Save MoreSpecial PriceNew ArrivalsGST Invoice AvailableAvailabilityHomeHome Cleaning & Bathroom AccessoriesCleaning SuppliesMops ,Brushes ,Cleaning Clothes ,Home Cleaning & Bathroom Accessories ,Dustbins ,Home Cleaning Sets ,Brooms ,Dusters ,Toilet Brushes ,Cleaning WipesCleaning Supplies(Showing 1 – 40 products of 10,120 products)Sort ByPopularityPrice -- Low to HighPrice -- High to LowNewest FirstELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUNETRI-PRO Clear Plastic Broom Holder4 Holders4.9(23)₹448₹99955% offAnasis Cleaning Brush for Cars Cleaning Surface, Multip...Black, Grey4.3(7)₹217₹59963% offPrestige Alpha with 2 Microfiber heads 360 Degree Spinn...Grey, Blue4.1(1,09,078)₹849₹1,59546% offOnly 5 leftELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUPC Microfiber Bucket 360? Flexible Head|Floor Cleaning...Green4(18,544)₹1,096₹2,49956% offHot DealPALAK Gamma with 360° Spinner 2 Microfiber heads & Twin...Orange4.4(4,253)₹500₹1,79772% offOnly few leftFlipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COL...Multicolor4(1,12,303)₹646₹2,19970% offHot DealDM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...Free Size Pack of 1004(21)₹90₹39977% offHot DealGabani fashion trash can with lid Plastic DustbinBlack₹250₹49949% offOnly few leftZARQITO Microfiber 100 inch ExtensionPole with Cleaning...3.9(25,481)₹155₹89982% offHot DealVEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cl...Medium, Pack of 204(415)₹118₹69983% offHot DealSpotzero by Milton Prime Spin Mop Stainless Steel Wring...4.3(25,226)₹1,449₹2,99651% offPrestige PSB 10 Magic Mop with Steel Winger and 2 Mop-h...Blue4.2(4,717)₹1,250₹2,59551% offOnly 1 leftUNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads ...White4.1(16)₹719₹1,79960% offShivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wr...Multicolor3.9(41,639)₹450₹2,99984% offHot DealMEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry ...4 Units3.9(1,109)₹110₹59981% offHot DealVAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendabl...Multicolor3.8(326)₹164₹69976% offHot Dealfreedomall durable dustbin lightweight dustbin modern d...Green₹362₹79954% offOnly few leftFlipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Ab...Multicolor4.1(54,975)₹562₹1,99971% offOnly few leftINASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUS...Multicolor4(1,032)₹154₹59974% offDM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Late...Free Size Pack of 2003.9(4,197)₹111₹39972% offHot DealWAYMORE Pride Mop floor cleaner pocha with steel wringe...Multicolor3.9(2,661)₹900₹3,49974% offHot DealSINGH ENTERPRISES Stainless Steel DustpanSteel₹225₹59962% offOnly few leftKLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & D...Multicolor3.6(110)₹141₹59976% offHANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large ...Blue4(22)₹1,526₹2,50038% offHot DealDR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Clo...20 Units4.2(90)₹154₹49969% offHot DealKITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale...Small, Pack of 53.7(3,113)₹130₹39967% offHot DealSpotzero by Milton eELITE SPIN MOP Mop SetMulticolor4.3(20,571)₹1,199₹1,89936% offOnly 1 leftTankit 2 Refills Mop Set Cleaning Bucket Mop Blue Class...Blue3.9(2,653)₹440₹1,19963% offOnly few leftORIDOR Car Washing and Detailing Kit with Microfiber Du...Pack of 54.2(60)₹297₹1,19975% offHot DealVEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brus...Multicolor3.4(16,424)₹162₹89981% offHot DealRadheTrade RT-Dustpan Plastic, Stainless Steel DustpanMulticolor4.3(450)₹435₹1,29966% offHot DealKanak Plastic Wet and Dry BrushBlue3.6(6,847)₹178₹59970% offOnly few leftVAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Gl...Multicolor3.6(94)₹141₹99985% offVINTAGE CREATION Premium Car Interior Cleaning Wipes 80...White₹136₹29954% offOnly few leftNEYU Multifunctional Magic Broom Sweeper, 180-Degree Ro...Grey3.8(1,451)₹227₹99977% offHot DealSHREEHARI elite mop Mop SetGrey3.4(441)₹264₹67961% offSpotzero by Milton ROYALE SPIN Mop SetGreen, Grey4.4(58,367)₹1,599₹2,69940% offOnly 3 leftKlenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Che...Regular, Pack of 44.3(4)₹232₹99976% offOnly few leftPage 1 of 25312345678910NextDid you find what you were looking for?YesNoReviews for Popular Cleaning Supplies1. Prestige Alpha with 2 Micro...4.11,09,078 Ratings&5,950 Reviews₹84946% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review3Just okayWorking fine but quality is not expected wellRead full reviewtushar machhiCertified BuyerJul, 2023Recent Review4Really NiceNice and light weight easy to useRead full reviewNitesh KarnCertified Buyer1 day ago2. HANBAAZ HANBAZ Water Tank C...422 Ratings&3 Reviews₹1,52638% offType: BrushBrush Material: PlasticHandle Material: Steel, IronMost Helpful Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days agoRecent Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days ago3. DM SPECIALLY FOR SPECIALIST...3.94,197 Ratings&171 Reviews₹11172% offPack of: 200Free SizeUsage Type: Wet and DryMost Helpful Review5Super!Khup chan thank u so muchRead full reviewMonali DhayagudeCertified Buyer7 months agoRecent Review1UnsatisfactoryVery small size it's for children not for adultsRead full reviewSima Srivastava Certified BuyerToday4. Flipkart SmartBuy SPRINKLER...41,12,303 Ratings&7,346 Reviews₹64670% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review5Must buy!It's a very good product and it's build quality is best non as other ..... I am fully satisfied with this product.... ❤️Read full reviewBicky KumarCertified BuyerJun, 2024Recent Review2Slightly disappointedThe bucket is ok but the berring of pipe is not working properly, quality is poor and you wrote flipkart made , this thing decrease trust on the items on whi...Read full reviewRaj ChaudharyCertified Buyer1 day ago5. ZARQITO Microfiber 100 inch...3.925,481 Ratings&1,276 Reviews₹15582% offType: DusterCleaning Type: Wet and DryBrush Material: MICROBIFERMost Helpful Review4DelightfulNo need to take risk cleaning the high raise area many more..best is duster easily remove the dust from every where..it's works efficiently.Read full reviewSabiyaCertified BuyerMar, 2023Recent Review5Super!Very very very good productRead full reviewSushanta paramanikCertified Buyer3 days agoCleaning Supplies Price ListCleaning SuppliesPricePALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop SetRs. 500RadheTrade RT-Dustpan Plastic, Stainless Steel DustpanRs. 435Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop SetRs. 1449Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge WipeRs. 232VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry BrushRs. 162Kanak Plastic Wet and Dry BrushRs. 178KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry MopRs. 141Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop SetRs. 646VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub PadRs. 118DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning ClothRs. 154This data was last updated on 2026/06/08Related SearchesHome Cleaning Bathroom AccessoriesMops | Dustbins | Brooms | Scrub Pads | Brushes | Cleaning Gloves | Cleaning Clothes | Toilet Brushes | Dusters | Mop Set | Home Cleaning Sets | Broom Holders | Dustpans | Cleaning Wipes | Mop Head Refill | WiperCloth Dryer Stands | Buckets | Kitchen Containers | Mats | Garbage BagsTrending SearchesElectric Spin Scrubber | Smart Waste Bins | Floor Cleaning MachineBuy Housekeeping materials and Cleaning Equipments online:Housekeeping materials like cleaning equipment, like laundry and washing equipment, ladders, stools, bathroom supplies and many more are necessities that every body needs to have at their homes. We often need a number of materials and supplies that can help you manage and clean your home much faster and efficiently. The place where you live remains organized and neat and this makes it easy for you to manage things at home. For instance, if you have a cloth dryer stand, laundry basket and such items at home, your clothes will not lie around and will be placed at one spot which makes it easy for you to pick them and organize them without much confusion. Prestige, Thunderfit, Spaze and the like are brands that manufacture strong, durable and good quality equipment that can be bought online at low prices. Variety of home cleaning appliances and bathroom accessories for your house:The very basic tool that every person uses at home to clean the floor of the house, unless it is laid with carpet, will be a broom. Once you clean the floor with a broom and clear it off all the dust and dirt, further cleaning happens by wiping with water and what you need for that is a mop set. Zibo, Samrah, Vimal, Hokipo are brands from where you can buy brooms and wipes or mop sets online. For cleaning other things at home like your furniture, upholstery, gas stoves, etc, you can buy plastic wet and dry brushes, scrub pads, cleaning clothes and the like. Cover your hands and keep them clean by wearing wet or dry hand gloves while cleaning. People shop for dustbins online under different sized based on where they plan to place it. Bigger plastic dustbins are placed in the kitchen, the smaller ones can be placed in the bedrooms and other rooms so that it becomes convenient for you to dispose off the garbage into them.A plethora of different types of bathroom accessories are available online. They come in different colours and designs and you can choose appropriate accessories that will go with the colour of the floors, curtains and wall tiles of your bathroom. Buy buckets, tooth brush holders, steel and plastic wall shelves in pink, blue, green and many other colours to suit your bathrooms from brands like Tatay, Zoom, Royal Indian Craft and the like. Laundry equipment, kitchen supplies and other accessories for your home:Washing materials and equipment for cleaning and laundry are available online at cheap prices. All that you need to do your laundry starting from the water tube for the washing machine, the water tap adaptor, clothes dryer stand, clothesline to the washing products like Surf, Tide and stain removers like Vanish are all available here. You can also buy kitchen supplies like dish cleaning gel, sponge holder , etc. from Amway, Fairy, Niks Cleanmax, Whirlpool among others.Shop for Housekeeping and Laundry Products Online:Housekeeping and laundry products comprise of detergents, surfactants, mops, toilet brushes, scrubbers, brooms, toilet paper, mop sets, and so on. These products are formulated to meet the demands of stain and soil removal, bleaching, fabric softening, conditioning,etc. They are also designed to meet the requirements under various types of water, temperatures, and different usage conditions as well. And almost all of us use these products on a regular basis, so the demand for them is always high. And, depending on your requirement, you can shop for housekeeping and laundry products online. This way, you can take all the time you want in going through all the products and materials available online so that you can purchase those items that will benefit you the most. And by shopping online for them, you can also get them delivered to your doorstep, which ensures that you don’t even have to step outside the comfort of your home to make your purchases. Make sure to use relevant keywords while searching for housekeeping and laundry products online so that you can get your hands on the best results. You can use keywords such as ‘vacuum storage bags’, ‘bathroom accessories’, ‘kitchen and household items’, and so much more. Let’s talk about some of the housekeeping and laundry products that you can shop for online so that you don’t have to waste time, energy, and money on something that you can easily get hand-delivered to you almost immediately. Examples of Housekeeping and Laundry Products 1. Bleaches: The two most common types of bleaches (chlorine and oxygen) are available in the market as laundry cleaning aids. They are used to help you remove stubborn stains and brighten fabrics so that they can look almost as good as new. Bleaches convert the stains and soils into colourless, soluble particles that can be removed with the help of detergents, and washed away with water. Liquid chlorine bleach can be used to disinfect and deodorise fabrics for hygienic use. And, oxygen bleaches are colour-safe and gentle on almost all washable fabrics.You can find popular brands of bleaches online such as Rin, Clorox, Naturalcare, and many more. 2. Carpet shampoos: These products are designed for wet application only. So, if you’re a hundred percent sure that your carpets are marked safe for wet wash, you can go ahead and use these products. Carpet shampoos are highly effective in removing dirt, grease, coffee, ink stains, and more. These products also work as odour eliminators and neutralise harsh and unpleasant odours. This leaves your carpets smelling fresh. You can find different brands of carpet shampoos online such as Natural Care, Dazlo, Astonish, Zep, CX, and so much more. 3. Restroom cleaning system/ brush, sprays and inspection kits: You can find these kits at affordable prices online. They are highly reliable and durable as well - so you don’t have to worry about constantly replacing them. These kits are manufactured using good quality raw materials to ensure that you get complete value for the money you spend. So, shop for housekeeping and laundry products online to rid your surroundings of pesky stains, odours, and discolouration. Happy shopping! Trending Kitchen & Household Items:Pressure Cookers & PansStoves & HobsFlasks & CasserolesLights & LampsTableware & CutleryCoffee MugsBar & GlasswareContainers & BottlesHousekeeping & LaundryDinnerware & CrockeryCookwareTrending Kitchen & Household Items Brands:Wonderchef Kitchen & Household ItemsMilton Kitchen & Household ItemsTupperware Kitchen & Household ItemsCello Kitchen & Household ItemsBorosil Kitchen & Household ItemsPrestige Kitchen & Household ItemsABOUTContact UsAbout UsCareersFlipkart StoriesPressCorporate InformationGROUP COMPANIESMyntraCleartripShopsyHELPPaymentsShippingCancellation & ReturnsFAQCONSUMER POLICYCancellation & ReturnsTerms Of UseSecurityPrivacySitemapGrievance RedressalEPR ComplianceFSSAI Food Safety Connect AppMail Us:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India
+SocialRegistered Office Address:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India 
+ CIN : U51109KA2012PTC066107 
+ Telephone: 044-45614700 / 044-67415800
+Become a SellerAdvertiseGift CardsHelp Center© 2007-2026 Flipkart.comBack to top"
+    - locator resolved to <div id="container">…</div>
+    - unexpected value "Explore PlusLoginLOGIN New customer?Sign UpBecome a Seller More CartElectronicsTVs & AppliancesMenWomenBaby & KidsHome & FurnitureSports, Books & MoreFlightsOffer ZoneFiltersCATEGORIESHome Cleaning & Bathroom AccessoriesCleaning SuppliesMop Head & RefillWiperMop SetMopsDustbinsShow 12 moreBrandCustomer Ratings4★ & above3★ & abovePrice.......Min5001000150020003000to50010001500200030003000+season_marker?DiscountOffersBuy More, Save MoreSpecial PriceNew ArrivalsGST Invoice AvailableAvailabilityHomeHome Cleaning & Bathroom AccessoriesCleaning SuppliesMops ,Brushes ,Cleaning Clothes ,Home Cleaning & Bathroom Accessories ,Dustbins ,Home Cleaning Sets ,Brooms ,Dusters ,Toilet Brushes ,Cleaning WipesCleaning Supplies(Showing 1 – 40 products of 10,120 products)Sort ByPopularityPrice -- Low to HighPrice -- High to LowNewest FirstELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUNETRI-PRO Clear Plastic Broom Holder4 Holders4.9(23)₹448₹99955% offAnasis Cleaning Brush for Cars Cleaning Surface, Multip...Black, Grey4.3(7)₹217₹59963% offBestsellerPrestige Alpha with 2 Microfiber heads 360 Degree Spinn...Grey, Blue4.1(1,09,078)₹849₹1,59546% offOnly 5 leftELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUPC Microfiber Bucket 360? Flexible Head|Floor Cleaning...Green4(18,544)₹1,096₹2,49956% offHot DealPALAK Gamma with 360° Spinner 2 Microfiber heads & Twin...Orange4.4(4,253)₹500₹1,79772% offOnly few leftFlipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COL...Multicolor4(1,12,303)₹646₹2,19970% offHot DealDM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...Free Size Pack of 1004(21)₹90₹39977% offHot DealGabani fashion trash can with lid Plastic DustbinBlack₹250₹49949% offOnly few leftZARQITO Microfiber 100 inch ExtensionPole with Cleaning...3.9(25,481)₹155₹89982% offHot DealVEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cl...Medium, Pack of 204(415)₹118₹69983% offHot DealSpotzero by Milton Prime Spin Mop Stainless Steel Wring...4.3(25,226)₹1,449₹2,99651% offPrestige PSB 10 Magic Mop with Steel Winger and 2 Mop-h...Blue4.2(4,717)₹1,250₹2,59551% offOnly 1 leftUNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads ...White4.1(16)₹719₹1,79960% offShivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wr...Multicolor3.9(41,639)₹450₹2,99984% offHot DealMEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry ...4 Units3.9(1,109)₹110₹59981% offHot DealVAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendabl...Multicolor3.8(326)₹164₹69976% offHot Dealfreedomall durable dustbin lightweight dustbin modern d...Green₹362₹79954% offOnly few leftFlipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Ab...Multicolor4.1(54,975)₹562₹1,99971% offOnly few leftINASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUS...Multicolor4(1,032)₹154₹59974% offDM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Late...Free Size Pack of 2003.9(4,197)₹111₹39972% offHot DealWAYMORE Pride Mop floor cleaner pocha with steel wringe...Multicolor3.9(2,661)₹900₹3,49974% offHot DealSINGH ENTERPRISES Stainless Steel DustpanSteel₹225₹59962% offOnly few leftKLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & D...Multicolor3.6(110)₹141₹59976% offHANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large ...Blue4(22)₹1,526₹2,50038% offHot DealDR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Clo...20 Units4.2(90)₹154₹49969% offHot DealKITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale...Small, Pack of 53.7(3,113)₹130₹39967% offHot DealSpotzero by Milton eELITE SPIN MOP Mop SetMulticolor4.3(20,571)₹1,199₹1,89936% offOnly 1 leftTankit 2 Refills Mop Set Cleaning Bucket Mop Blue Class...Blue3.9(2,653)₹440₹1,19963% offOnly few leftORIDOR Car Washing and Detailing Kit with Microfiber Du...Pack of 54.2(60)₹297₹1,19975% offHot DealVEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brus...Multicolor3.4(16,424)₹162₹89981% offHot DealRadheTrade RT-Dustpan Plastic, Stainless Steel DustpanMulticolor4.3(450)₹435₹1,29966% offHot DealKanak Plastic Wet and Dry BrushBlue3.6(6,847)₹178₹59970% offOnly few leftVAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Gl...Multicolor3.6(94)₹141₹99985% offVINTAGE CREATION Premium Car Interior Cleaning Wipes 80...White₹136₹29954% offOnly few leftNEYU Multifunctional Magic Broom Sweeper, 180-Degree Ro...Grey3.8(1,451)₹227₹99977% offHot DealSHREEHARI elite mop Mop SetGrey3.4(441)₹264₹67961% offSpotzero by Milton ROYALE SPIN Mop SetGreen, Grey4.4(58,367)₹1,599₹2,69940% offOnly 3 leftKlenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Che...Regular, Pack of 44.3(4)₹232₹99976% offOnly few leftPage 1 of 25312345678910NextDid you find what you were looking for?YesNoReviews for Popular Cleaning Supplies1. Prestige Alpha with 2 Micro...4.11,09,078 Ratings&5,950 Reviews₹84946% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review3Just okayWorking fine but quality is not expected wellRead full reviewtushar machhiCertified BuyerJul, 2023Recent Review4Really NiceNice and light weight easy to useRead full reviewNitesh KarnCertified Buyer1 day ago2. HANBAAZ HANBAZ Water Tank C...422 Ratings&3 Reviews₹1,52638% offType: BrushBrush Material: PlasticHandle Material: Steel, IronMost Helpful Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days agoRecent Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days ago3. DM SPECIALLY FOR SPECIALIST...3.94,197 Ratings&171 Reviews₹11172% offPack of: 200Free SizeUsage Type: Wet and DryMost Helpful Review5Super!Khup chan thank u so muchRead full reviewMonali DhayagudeCertified Buyer7 months agoRecent Review1UnsatisfactoryVery small size it's for children not for adultsRead full reviewSima Srivastava Certified BuyerToday4. Flipkart SmartBuy SPRINKLER...41,12,303 Ratings&7,346 Reviews₹64670% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review5Must buy!It's a very good product and it's build quality is best non as other ..... I am fully satisfied with this product.... ❤️Read full reviewBicky KumarCertified BuyerJun, 2024Recent Review2Slightly disappointedThe bucket is ok but the berring of pipe is not working properly, quality is poor and you wrote flipkart made , this thing decrease trust on the items on whi...Read full reviewRaj ChaudharyCertified Buyer1 day ago5. ZARQITO Microfiber 100 inch...3.925,481 Ratings&1,276 Reviews₹15582% offType: DusterCleaning Type: Wet and DryBrush Material: MICROBIFERMost Helpful Review4DelightfulNo need to take risk cleaning the high raise area many more..best is duster easily remove the dust from every where..it's works efficiently.Read full reviewSabiyaCertified BuyerMar, 2023Recent Review5Super!Very very very good productRead full reviewSushanta paramanikCertified Buyer3 days agoCleaning Supplies Price ListCleaning SuppliesPricePALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop SetRs. 500RadheTrade RT-Dustpan Plastic, Stainless Steel DustpanRs. 435Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop SetRs. 1449Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge WipeRs. 232VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry BrushRs. 162Kanak Plastic Wet and Dry BrushRs. 178KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry MopRs. 141Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop SetRs. 646VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub PadRs. 118DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning ClothRs. 154This data was last updated on 2026/06/08Related SearchesHome Cleaning Bathroom AccessoriesMops | Dustbins | Brooms | Scrub Pads | Brushes | Cleaning Gloves | Cleaning Clothes | Toilet Brushes | Dusters | Mop Set | Home Cleaning Sets | Broom Holders | Dustpans | Cleaning Wipes | Mop Head Refill | WiperCloth Dryer Stands | Buckets | Kitchen Containers | Mats | Garbage BagsTrending SearchesElectric Spin Scrubber | Smart Waste Bins | Floor Cleaning MachineBuy Housekeeping materials and Cleaning Equipments online:Housekeeping materials like cleaning equipment, like laundry and washing equipment, ladders, stools, bathroom supplies and many more are necessities that every body needs to have at their homes. We often need a number of materials and supplies that can help you manage and clean your home much faster and efficiently. The place where you live remains organized and neat and this makes it easy for you to manage things at home. For instance, if you have a cloth dryer stand, laundry basket and such items at home, your clothes will not lie around and will be placed at one spot which makes it easy for you to pick them and organize them without much confusion. Prestige, Thunderfit, Spaze and the like are brands that manufacture strong, durable and good quality equipment that can be bought online at low prices. Variety of home cleaning appliances and bathroom accessories for your house:The very basic tool that every person uses at home to clean the floor of the house, unless it is laid with carpet, will be a broom. Once you clean the floor with a broom and clear it off all the dust and dirt, further cleaning happens by wiping with water and what you need for that is a mop set. Zibo, Samrah, Vimal, Hokipo are brands from where you can buy brooms and wipes or mop sets online. For cleaning other things at home like your furniture, upholstery, gas stoves, etc, you can buy plastic wet and dry brushes, scrub pads, cleaning clothes and the like. Cover your hands and keep them clean by wearing wet or dry hand gloves while cleaning. People shop for dustbins online under different sized based on where they plan to place it. Bigger plastic dustbins are placed in the kitchen, the smaller ones can be placed in the bedrooms and other rooms so that it becomes convenient for you to dispose off the garbage into them.A plethora of different types of bathroom accessories are available online. They come in different colours and designs and you can choose appropriate accessories that will go with the colour of the floors, curtains and wall tiles of your bathroom. Buy buckets, tooth brush holders, steel and plastic wall shelves in pink, blue, green and many other colours to suit your bathrooms from brands like Tatay, Zoom, Royal Indian Craft and the like. Laundry equipment, kitchen supplies and other accessories for your home:Washing materials and equipment for cleaning and laundry are available online at cheap prices. All that you need to do your laundry starting from the water tube for the washing machine, the water tap adaptor, clothes dryer stand, clothesline to the washing products like Surf, Tide and stain removers like Vanish are all available here. You can also buy kitchen supplies like dish cleaning gel, sponge holder , etc. from Amway, Fairy, Niks Cleanmax, Whirlpool among others.Shop for Housekeeping and Laundry Products Online:Housekeeping and laundry products comprise of detergents, surfactants, mops, toilet brushes, scrubbers, brooms, toilet paper, mop sets, and so on. These products are formulated to meet the demands of stain and soil removal, bleaching, fabric softening, conditioning,etc. They are also designed to meet the requirements under various types of water, temperatures, and different usage conditions as well. And almost all of us use these products on a regular basis, so the demand for them is always high. And, depending on your requirement, you can shop for housekeeping and laundry products online. This way, you can take all the time you want in going through all the products and materials available online so that you can purchase those items that will benefit you the most. And by shopping online for them, you can also get them delivered to your doorstep, which ensures that you don’t even have to step outside the comfort of your home to make your purchases. Make sure to use relevant keywords while searching for housekeeping and laundry products online so that you can get your hands on the best results. You can use keywords such as ‘vacuum storage bags’, ‘bathroom accessories’, ‘kitchen and household items’, and so much more. Let’s talk about some of the housekeeping and laundry products that you can shop for online so that you don’t have to waste time, energy, and money on something that you can easily get hand-delivered to you almost immediately. Examples of Housekeeping and Laundry Products 1. Bleaches: The two most common types of bleaches (chlorine and oxygen) are available in the market as laundry cleaning aids. They are used to help you remove stubborn stains and brighten fabrics so that they can look almost as good as new. Bleaches convert the stains and soils into colourless, soluble particles that can be removed with the help of detergents, and washed away with water. Liquid chlorine bleach can be used to disinfect and deodorise fabrics for hygienic use. And, oxygen bleaches are colour-safe and gentle on almost all washable fabrics.You can find popular brands of bleaches online such as Rin, Clorox, Naturalcare, and many more. 2. Carpet shampoos: These products are designed for wet application only. So, if you’re a hundred percent sure that your carpets are marked safe for wet wash, you can go ahead and use these products. Carpet shampoos are highly effective in removing dirt, grease, coffee, ink stains, and more. These products also work as odour eliminators and neutralise harsh and unpleasant odours. This leaves your carpets smelling fresh. You can find different brands of carpet shampoos online such as Natural Care, Dazlo, Astonish, Zep, CX, and so much more. 3. Restroom cleaning system/ brush, sprays and inspection kits: You can find these kits at affordable prices online. They are highly reliable and durable as well - so you don’t have to worry about constantly replacing them. These kits are manufactured using good quality raw materials to ensure that you get complete value for the money you spend. So, shop for housekeeping and laundry products online to rid your surroundings of pesky stains, odours, and discolouration. Happy shopping! Trending Kitchen & Household Items:Pressure Cookers & PansStoves & HobsFlasks & CasserolesLights & LampsTableware & CutleryCoffee MugsBar & GlasswareContainers & BottlesHousekeeping & LaundryDinnerware & CrockeryCookwareTrending Kitchen & Household Items Brands:Wonderchef Kitchen & Household ItemsMilton Kitchen & Household ItemsTupperware Kitchen & Household ItemsCello Kitchen & Household ItemsBorosil Kitchen & Household ItemsPrestige Kitchen & Household ItemsABOUTContact UsAbout UsCareersFlipkart StoriesPressCorporate InformationGROUP COMPANIESMyntraCleartripShopsyHELPPaymentsShippingCancellation & ReturnsFAQCONSUMER POLICYCancellation & ReturnsTerms Of UseSecurityPrivacySitemapGrievance RedressalEPR ComplianceFSSAI Food Safety Connect AppMail Us:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India
+SocialRegistered Office Address:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India 
+ CIN : U51109KA2012PTC066107 
+ Telephone: 044-45614700 / 044-67415800
+Become a SellerAdvertiseGift CardsHelp Center© 2007-2026 Flipkart.comBack to top"
+    47 × locator resolved to <div id="container">…</div>
+       - unexpected value "Explore PlusLoginBecome a Seller More CartElectronicsTVs & AppliancesMenWomenBaby & KidsHome & FurnitureSports, Books & MoreFlightsOffer ZoneFiltersCATEGORIESHome Cleaning & Bathroom AccessoriesCleaning SuppliesMop Head & RefillWiperMop SetMopsDustbinsShow 12 moreBrandCustomer Ratings4★ & above3★ & abovePrice.......Min5001000150020003000to50010001500200030003000+season_marker?DiscountOffersBuy More, Save MoreSpecial PriceNew ArrivalsGST Invoice AvailableAvailabilityHomeHome Cleaning & Bathroom AccessoriesCleaning SuppliesMops ,Brushes ,Cleaning Clothes ,Home Cleaning & Bathroom Accessories ,Dustbins ,Home Cleaning Sets ,Brooms ,Dusters ,Toilet Brushes ,Cleaning WipesCleaning Supplies(Showing 1 – 40 products of 10,120 products)Sort ByPopularityPrice -- Low to HighPrice -- High to LowNewest FirstELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUNETRI-PRO Clear Plastic Broom Holder4 Holders4.9(23)₹448₹99955% offAnasis Cleaning Brush for Cars Cleaning Surface, Multip...Black, Grey4.3(7)₹217₹59963% offBestsellerPrestige Alpha with 2 Microfiber heads 360 Degree Spinn...Grey, Blue4.1(1,09,078)₹849₹1,59546% offOnly 5 leftELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...Multicolor4(9,534)₹448₹1,99977% offOnly few leftUPC Microfiber Bucket 360? Flexible Head|Floor Cleaning...Green4(18,544)₹1,096₹2,49956% offHot DealPALAK Gamma with 360° Spinner 2 Microfiber heads & Twin...Orange4.4(4,253)₹500₹1,79772% offOnly few leftFlipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COL...Multicolor4(1,12,303)₹646₹2,19970% offHot DealDM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...Free Size Pack of 1004(21)₹90₹39977% offHot DealGabani fashion trash can with lid Plastic DustbinBlack₹250₹49949% offOnly few leftZARQITO Microfiber 100 inch ExtensionPole with Cleaning...3.9(25,481)₹155₹89982% offHot DealVEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cl...Medium, Pack of 204(415)₹118₹69983% offHot DealSpotzero by Milton Prime Spin Mop Stainless Steel Wring...4.3(25,226)₹1,449₹2,99651% offPrestige PSB 10 Magic Mop with Steel Winger and 2 Mop-h...Blue4.2(4,717)₹1,250₹2,59551% offOnly 1 leftUNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads ...White4.1(16)₹719₹1,79960% offShivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wr...Multicolor3.9(41,639)₹450₹2,99984% offHot DealMEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry ...4 Units3.9(1,109)₹110₹59981% offHot DealVAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendabl...Multicolor3.8(326)₹164₹69976% offHot Dealfreedomall durable dustbin lightweight dustbin modern d...Green₹362₹79954% offOnly few leftFlipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Ab...Multicolor4.1(54,975)₹562₹1,99971% offOnly few leftINASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUS...Multicolor4(1,032)₹154₹59974% offDM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Late...Free Size Pack of 2003.9(4,197)₹111₹39972% offHot DealWAYMORE Pride Mop floor cleaner pocha with steel wringe...Multicolor3.9(2,661)₹900₹3,49974% offHot DealSINGH ENTERPRISES Stainless Steel DustpanSteel₹225₹59962% offOnly few leftKLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & D...Multicolor3.6(110)₹141₹59976% offHANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large ...Blue4(22)₹1,526₹2,50038% offHot DealDR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Clo...20 Units4.2(90)₹154₹49969% offHot DealKITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale...Small, Pack of 53.7(3,113)₹130₹39967% offHot DealSpotzero by Milton eELITE SPIN MOP Mop SetMulticolor4.3(20,571)₹1,199₹1,89936% offOnly 1 leftTankit 2 Refills Mop Set Cleaning Bucket Mop Blue Class...Blue3.9(2,653)₹440₹1,19963% offOnly few leftORIDOR Car Washing and Detailing Kit with Microfiber Du...Pack of 54.2(60)₹297₹1,19975% offHot DealVEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brus...Multicolor3.4(16,424)₹162₹89981% offHot DealRadheTrade RT-Dustpan Plastic, Stainless Steel DustpanMulticolor4.3(450)₹435₹1,29966% offHot DealKanak Plastic Wet and Dry BrushBlue3.6(6,847)₹178₹59970% offOnly few leftVAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Gl...Multicolor3.6(94)₹141₹99985% offVINTAGE CREATION Premium Car Interior Cleaning Wipes 80...White₹136₹29954% offOnly few leftNEYU Multifunctional Magic Broom Sweeper, 180-Degree Ro...Grey3.8(1,451)₹227₹99977% offHot DealSHREEHARI elite mop Mop SetGrey3.4(441)₹264₹67961% offSpotzero by Milton ROYALE SPIN Mop SetGreen, Grey4.4(58,367)₹1,599₹2,69940% offOnly 3 leftKlenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Che...Regular, Pack of 44.3(4)₹232₹99976% offOnly few leftPage 1 of 25312345678910NextDid you find what you were looking for?YesNoReviews for Popular Cleaning Supplies1. Prestige Alpha with 2 Micro...4.11,09,078 Ratings&5,950 Reviews₹84946% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review3Just okayWorking fine but quality is not expected wellRead full reviewtushar machhiCertified BuyerJul, 2023Recent Review4Really NiceNice and light weight easy to useRead full reviewNitesh KarnCertified Buyer1 day ago2. HANBAAZ HANBAZ Water Tank C...422 Ratings&3 Reviews₹1,52638% offType: BrushBrush Material: PlasticHandle Material: Steel, IronMost Helpful Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days agoRecent Review1HorribleVery bad product, 👎  don't buyRead full reviewVaishna  vCertified Buyer28 days ago3. DM SPECIALLY FOR SPECIALIST...3.94,197 Ratings&171 Reviews₹11172% offPack of: 200Free SizeUsage Type: Wet and DryMost Helpful Review5Super!Khup chan thank u so muchRead full reviewMonali DhayagudeCertified Buyer7 months agoRecent Review1UnsatisfactoryVery small size it's for children not for adultsRead full reviewSima Srivastava Certified BuyerToday4. Flipkart SmartBuy SPRINKLER...41,12,303 Ratings&7,346 Reviews₹64670% offType: Mop SetPower Source: NAPack of: 1Most Helpful Review5Must buy!It's a very good product and it's build quality is best non as other ..... I am fully satisfied with this product.... ❤️Read full reviewBicky KumarCertified BuyerJun, 2024Recent Review2Slightly disappointedThe bucket is ok but the berring of pipe is not working properly, quality is poor and you wrote flipkart made , this thing decrease trust on the items on whi...Read full reviewRaj ChaudharyCertified Buyer1 day ago5. ZARQITO Microfiber 100 inch...3.925,481 Ratings&1,276 Reviews₹15582% offType: DusterCleaning Type: Wet and DryBrush Material: MICROBIFERMost Helpful Review4DelightfulNo need to take risk cleaning the high raise area many more..best is duster easily remove the dust from every where..it's works efficiently.Read full reviewSabiyaCertified BuyerMar, 2023Recent Review5Super!Very very very good productRead full reviewSushanta paramanikCertified Buyer3 days agoCleaning Supplies Price ListCleaning SuppliesPricePALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop SetRs. 500RadheTrade RT-Dustpan Plastic, Stainless Steel DustpanRs. 435Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop SetRs. 1449Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge WipeRs. 232VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry BrushRs. 162Kanak Plastic Wet and Dry BrushRs. 178KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry MopRs. 141Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop SetRs. 646VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub PadRs. 118DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning ClothRs. 154This data was last updated on 2026/06/08Related SearchesHome Cleaning Bathroom AccessoriesMops | Dustbins | Brooms | Scrub Pads | Brushes | Cleaning Gloves | Cleaning Clothes | Toilet Brushes | Dusters | Mop Set | Home Cleaning Sets | Broom Holders | Dustpans | Cleaning Wipes | Mop Head Refill | WiperCloth Dryer Stands | Buckets | Kitchen Containers | Mats | Garbage BagsTrending SearchesElectric Spin Scrubber | Smart Waste Bins | Floor Cleaning MachineBuy Housekeeping materials and Cleaning Equipments online:Housekeeping materials like cleaning equipment, like laundry and washing equipment, ladders, stools, bathroom supplies and many more are necessities that every body needs to have at their homes. We often need a number of materials and supplies that can help you manage and clean your home much faster and efficiently. The place where you live remains organized and neat and this makes it easy for you to manage things at home. For instance, if you have a cloth dryer stand, laundry basket and such items at home, your clothes will not lie around and will be placed at one spot which makes it easy for you to pick them and organize them without much confusion. Prestige, Thunderfit, Spaze and the like are brands that manufacture strong, durable and good quality equipment that can be bought online at low prices. Variety of home cleaning appliances and bathroom accessories for your house:The very basic tool that every person uses at home to clean the floor of the house, unless it is laid with carpet, will be a broom. Once you clean the floor with a broom and clear it off all the dust and dirt, further cleaning happens by wiping with water and what you need for that is a mop set. Zibo, Samrah, Vimal, Hokipo are brands from where you can buy brooms and wipes or mop sets online. For cleaning other things at home like your furniture, upholstery, gas stoves, etc, you can buy plastic wet and dry brushes, scrub pads, cleaning clothes and the like. Cover your hands and keep them clean by wearing wet or dry hand gloves while cleaning. People shop for dustbins online under different sized based on where they plan to place it. Bigger plastic dustbins are placed in the kitchen, the smaller ones can be placed in the bedrooms and other rooms so that it becomes convenient for you to dispose off the garbage into them.A plethora of different types of bathroom accessories are available online. They come in different colours and designs and you can choose appropriate accessories that will go with the colour of the floors, curtains and wall tiles of your bathroom. Buy buckets, tooth brush holders, steel and plastic wall shelves in pink, blue, green and many other colours to suit your bathrooms from brands like Tatay, Zoom, Royal Indian Craft and the like. Laundry equipment, kitchen supplies and other accessories for your home:Washing materials and equipment for cleaning and laundry are available online at cheap prices. All that you need to do your laundry starting from the water tube for the washing machine, the water tap adaptor, clothes dryer stand, clothesline to the washing products like Surf, Tide and stain removers like Vanish are all available here. You can also buy kitchen supplies like dish cleaning gel, sponge holder , etc. from Amway, Fairy, Niks Cleanmax, Whirlpool among others.Shop for Housekeeping and Laundry Products Online:Housekeeping and laundry products comprise of detergents, surfactants, mops, toilet brushes, scrubbers, brooms, toilet paper, mop sets, and so on. These products are formulated to meet the demands of stain and soil removal, bleaching, fabric softening, conditioning,etc. They are also designed to meet the requirements under various types of water, temperatures, and different usage conditions as well. And almost all of us use these products on a regular basis, so the demand for them is always high. And, depending on your requirement, you can shop for housekeeping and laundry products online. This way, you can take all the time you want in going through all the products and materials available online so that you can purchase those items that will benefit you the most. And by shopping online for them, you can also get them delivered to your doorstep, which ensures that you don’t even have to step outside the comfort of your home to make your purchases. Make sure to use relevant keywords while searching for housekeeping and laundry products online so that you can get your hands on the best results. You can use keywords such as ‘vacuum storage bags’, ‘bathroom accessories’, ‘kitchen and household items’, and so much more. Let’s talk about some of the housekeeping and laundry products that you can shop for online so that you don’t have to waste time, energy, and money on something that you can easily get hand-delivered to you almost immediately. Examples of Housekeeping and Laundry Products 1. Bleaches: The two most common types of bleaches (chlorine and oxygen) are available in the market as laundry cleaning aids. They are used to help you remove stubborn stains and brighten fabrics so that they can look almost as good as new. Bleaches convert the stains and soils into colourless, soluble particles that can be removed with the help of detergents, and washed away with water. Liquid chlorine bleach can be used to disinfect and deodorise fabrics for hygienic use. And, oxygen bleaches are colour-safe and gentle on almost all washable fabrics.You can find popular brands of bleaches online such as Rin, Clorox, Naturalcare, and many more. 2. Carpet shampoos: These products are designed for wet application only. So, if you’re a hundred percent sure that your carpets are marked safe for wet wash, you can go ahead and use these products. Carpet shampoos are highly effective in removing dirt, grease, coffee, ink stains, and more. These products also work as odour eliminators and neutralise harsh and unpleasant odours. This leaves your carpets smelling fresh. You can find different brands of carpet shampoos online such as Natural Care, Dazlo, Astonish, Zep, CX, and so much more. 3. Restroom cleaning system/ brush, sprays and inspection kits: You can find these kits at affordable prices online. They are highly reliable and durable as well - so you don’t have to worry about constantly replacing them. These kits are manufactured using good quality raw materials to ensure that you get complete value for the money you spend. So, shop for housekeeping and laundry products online to rid your surroundings of pesky stains, odours, and discolouration. Happy shopping! Trending Kitchen & Household Items:Pressure Cookers & PansStoves & HobsFlasks & CasserolesLights & LampsTableware & CutleryCoffee MugsBar & GlasswareContainers & BottlesHousekeeping & LaundryDinnerware & CrockeryCookwareTrending Kitchen & Household Items Brands:Wonderchef Kitchen & Household ItemsMilton Kitchen & Household ItemsTupperware Kitchen & Household ItemsCello Kitchen & Household ItemsBorosil Kitchen & Household ItemsPrestige Kitchen & Household ItemsABOUTContact UsAbout UsCareersFlipkart StoriesPressCorporate InformationGROUP COMPANIESMyntraCleartripShopsyHELPPaymentsShippingCancellation & ReturnsFAQCONSUMER POLICYCancellation & ReturnsTerms Of UseSecurityPrivacySitemapGrievance RedressalEPR ComplianceFSSAI Food Safety Connect AppMail Us:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India
+SocialRegistered Office Address:Flipkart Internet Private Limited, 
+ Buildings Alyssa, Begonia & 
+ Clove Embassy Tech Village, 
+ Outer Ring Road, Devarabeesanahalli Village, 
+ Bengaluru, 560103, 
+ Karnataka, India 
+ CIN : U51109KA2012PTC066107 
+ Telephone: 044-45614700 / 044-67415800
+Become a SellerAdvertiseGift CardsHelp Center© 2007-2026 Flipkart.comBack to top"
+
+```
+
+```yaml
+- link "Flipkart":
+  - /url: /
+  - img "Flipkart"
+- link "Explore Plus":
+  - /url: /plus
+  - text: Explore Plus
+  - img
+- textbox "Search for products, brands and more"
+- button:
+  - img
+- link "Login":
+  - /url: /account/login?ret=/home-cleaning-bathroom-accessories/cleaning-supplies/pr%3Fsid%3Drja%252Cz2d%26ctx%3DeyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%253D%253D
+- link "Become a Seller":
+  - /url: https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+- text: More
+- img
+- link "Cart":
+  - /url: /viewcart?exploreMode=true&preference=FLIPKART
+  - img
+  - text: Cart
+- text: Electronics
+- img
+- text: TVs & Appliances
+- img
+- text: Men
+- img
+- text: Women
+- img
+- text: Baby & Kids
+- img
+- text: Home & Furniture
+- img
+- text: Sports, Books & More
+- img
+- link "Flights":
+  - /url: /travel/flights?otracker=nmenu_Flights
+- link "Offer Zone":
+  - /url: /offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone
+- text: Filters CATEGORIES
+- img
+- link "Home Cleaning & Bathroom Accessories":
+  - /url: /home-cleaning-bathroom-accessories/pr?sid=rja&otracker=categorytree
+- img
+- link "Cleaning Supplies":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja,z2d&otracker=categorytree
+- link "Mop Head & Refill":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/mop-head-refill/pr?sid=rja,z2d,19v&otracker=categorytree
+- link "Wiper":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/wiper/pr?sid=rja,z2d,5a8&otracker=categorytree
+- link "Mop Set":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/mop-set/pr?sid=rja,z2d,ivx&otracker=categorytree
+- link "Mops":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/mops/pr?sid=rja,z2d,xrz&otracker=categorytree
+- link "Dustbins":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/dustbins/pr?sid=rja,z2d,r6h&otracker=categorytree
+- text: Show 12 more Brand
+- img
+- text: Customer Ratings
+- img
+- text: 4★ & above 3★ & above Price . . . . . . .
+- combobox:
+  - option "Min" [selected]
+  - option "500"
+  - option "1000"
+  - option "1500"
+  - option "2000"
+  - option "3000"
+- text: to
+- combobox:
+  - option "500"
+  - option "1000"
+  - option "1500"
+  - option "2000"
+  - option "3000"
+  - option "3000+" [selected]
+- text: season_marker
+- img
+- img
+- text: "? Discount"
+- img
+- text: Offers
+- img
+- text: Buy More, Save More Special Price New Arrivals
+- img
+- text: GST Invoice Available
+- img
+- text: Availability
+- img
+- link "Home":
+  - /url: /
+- img
+- link "Home Cleaning & Bathroom Accessories":
+  - /url: /home-cleaning-bathroom-accessories/pr?sid=rja&marketplace=FLIPKART
+- img
+- link "Cleaning Supplies":
+  - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja,z2d&marketplace=FLIPKART
+- link "Mops":
+  - /url: https://www.flipkart.com/mops/pr?sid=rja,z2d,xrz
+- text: ","
+- link "Brushes":
+  - /url: https://www.flipkart.com/brushes/pr?sid=rja,z2d,rrc
+- text: ","
+- link "Cleaning Clothes":
+  - /url: https://www.flipkart.com/cleaning-clothes/pr?sid=rja,z2d,ns2
+- text: ","
+- link "Home Cleaning & Bathroom Accessories":
+  - /url: https://www.flipkart.com/home-cleaning-bathroom-accessories/pr?sid=rja
+- text: ","
+- link "Dustbins":
+  - /url: https://www.flipkart.com/dustbins/pr?sid=rja,z2d,r6h
+- text: ","
+- link "Home Cleaning Sets":
+  - /url: https://www.flipkart.com/home-cleaning-sets/pr?sid=rja,z2d,jkj
+- text: ","
+- link "Brooms":
+  - /url: https://www.flipkart.com/brooms/pr?sid=rja,z2d,jms
+- text: ","
+- link "Dusters":
+  - /url: https://www.flipkart.com/dusters/pr?sid=rja,z2d,hhd
+- text: ","
+- link "Toilet Brushes":
+  - /url: https://www.flipkart.com/toilet-brushes/pr?sid=rja,z2d,de2
+- text: ","
+- link "Cleaning Wipes":
+  - /url: https://www.flipkart.com/cleaning-wipes/pr?sid=rja,z2d,m2i
+- heading "Cleaning Supplies" [level=1]
+- text: (Showing 1 – 40 products of 10,120 products) Sort By Popularity Price -- Low to High Price -- High to Low Newest First
+- link "ELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANING MOP WITH 2 MICROFIBER REFILL Mop Set":
+  - /url: /elinor-plastic-spinner-bucket-mop-360-revolving-cleaning-2-microfiber-refill-set/p/itm47a0a3b1464f0?pid=MCWHMP4UCS2ZHUH6&lid=LSTMCWHMP4UCS2ZHUH66TDWDH&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_1&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yeAbl2cnXDiwtmC2hMfhVEYQBlPoIB7kBoirbhtXEhnA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "ELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANING MOP WITH 2 MICROFIBER REFILL Mop Set"
+  - img
+- img
+- link "ELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...":
+  - /url: /elinor-plastic-spinner-bucket-mop-360-revolving-cleaning-2-microfiber-refill-set/p/itm47a0a3b1464f0?pid=MCWHMP4UCS2ZHUH6&lid=LSTMCWHMP4UCS2ZHUH66TDWDH&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_1&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yeAbl2cnXDiwtmC2hMfhVEYQBlPoIB7kBoirbhtXEhnA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4
+- img
+- text: (9,534)
+- img
+- link "₹448 ₹1,999 77% off":
+  - /url: /elinor-plastic-spinner-bucket-mop-360-revolving-cleaning-2-microfiber-refill-set/p/itm47a0a3b1464f0?pid=MCWHMP4UCS2ZHUH6&lid=LSTMCWHMP4UCS2ZHUH66TDWDH&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_1&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yeAbl2cnXDiwtmC2hMfhVEYQBlPoIB7kBoirbhtXEhnA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "UNETRI-PRO Clear Plastic Broom Holder":
+  - /url: /unetri-pro-clear-plastic-broom-holder/p/itm0b8e5fe38bcae?pid=BRMHNYZDZZAUUZCE&lid=LSTBRMHNYZDZZAUUZCEX8EJO3&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_2&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ylbikRvoX1jxLw_7OBDuXhTIQP3vf621PbkiFXLzl1_A%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "UNETRI-PRO Clear Plastic Broom Holder"
+  - img
+- img
+- link "UNETRI-PRO Clear Plastic Broom Holder":
+  - /url: /unetri-pro-clear-plastic-broom-holder/p/itm0b8e5fe38bcae?pid=BRMHNYZDZZAUUZCE&lid=LSTBRMHNYZDZZAUUZCEX8EJO3&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_2&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ylbikRvoX1jxLw_7OBDuXhTIQP3vf621PbkiFXLzl1_A%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: 4 Holders 4.9
+- img
+- text: (23)
+- img
+- link "₹448 ₹999 55% off":
+  - /url: /unetri-pro-clear-plastic-broom-holder/p/itm0b8e5fe38bcae?pid=BRMHNYZDZZAUUZCE&lid=LSTBRMHNYZDZZAUUZCEX8EJO3&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_2&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ylbikRvoX1jxLw_7OBDuXhTIQP3vf621PbkiFXLzl1_A%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "Anasis Cleaning Brush for Cars Cleaning Surface, Multipurpose Soft Brush with Hand Wool Wet Brush":
+  - /url: /anasis-cleaning-brush-cars-surface-multipurpose-soft-hand-wool-wet/p/itm2ed5bd00300aa?pid=BMBHF2SWPZP2KSPF&lid=LSTBMBHF2SWPZP2KSPFCE06YK&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_3&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zO8ADl252h9mTFotOgfwvUNNr0HNWabbdDC1NKp8fvXA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Anasis Cleaning Brush for Cars Cleaning Surface, Multipurpose Soft Brush with Hand Wool Wet Brush"
+  - img
+- img
+- link "Anasis Cleaning Brush for Cars Cleaning Surface, Multip...":
+  - /url: /anasis-cleaning-brush-cars-surface-multipurpose-soft-hand-wool-wet/p/itm2ed5bd00300aa?pid=BMBHF2SWPZP2KSPF&lid=LSTBMBHF2SWPZP2KSPFCE06YK&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_3&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zO8ADl252h9mTFotOgfwvUNNr0HNWabbdDC1NKp8fvXA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Black, Grey 4.3
+- img
+- text: (7)
+- link "₹217 ₹599 63% off":
+  - /url: /anasis-cleaning-brush-cars-surface-multipurpose-soft-hand-wool-wet/p/itm2ed5bd00300aa?pid=BMBHF2SWPZP2KSPF&lid=LSTBMBHF2SWPZP2KSPFCE06YK&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_3&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zO8ADl252h9mTFotOgfwvUNNr0HNWabbdDC1NKp8fvXA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "Prestige Alpha with 2 Microfiber heads 360 Degree Spinner Mop Set Bestseller":
+  - /url: /prestige-alpha-2-microfiber-heads-360-degree-spinner-mop-set/p/itm3f6557300be6d?pid=HCSGMV5FF5XHHFBW&lid=LSTHCSGMV5FF5XHHFBWQCLO3Y&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_4&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGMV5FF5XHHFBW.SEARCH&ppt=browse&ppn=browse&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Prestige Alpha with 2 Microfiber heads 360 Degree Spinner Mop Set"
+  - text: Bestseller
+  - img
+- link "Prestige Alpha with 2 Microfiber heads 360 Degree Spinn...":
+  - /url: /prestige-alpha-2-microfiber-heads-360-degree-spinner-mop-set/p/itm3f6557300be6d?pid=HCSGMV5FF5XHHFBW&lid=LSTHCSGMV5FF5XHHFBWQCLO3Y&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_4&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGMV5FF5XHHFBW.SEARCH&ppt=browse&ppn=browse&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Grey, Blue 4.1
+- img
+- text: (1,09,078)
+- img
+- link "₹849 ₹1,595 46% off":
+  - /url: /prestige-alpha-2-microfiber-heads-360-degree-spinner-mop-set/p/itm3f6557300be6d?pid=HCSGMV5FF5XHHFBW&lid=LSTHCSGMV5FF5XHHFBWQCLO3Y&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_4&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGMV5FF5XHHFBW.SEARCH&ppt=browse&ppn=browse&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only 5 left
+- link "ELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANING MOP WITH 2 MICROFIBER REFILL Mop Set":
+  - /url: /elinor-plastic-spinner-bucket-mop-360-revolving-cleaning-2-microfiber-refill-set/p/itm47a0a3b1464f0?pid=MCWHMP4UCS2ZHUH6&lid=LSTMCWHMP4UCS2ZHUH66TDWDH&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_5&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHMP4UCS2ZHUH6.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "ELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANING MOP WITH 2 MICROFIBER REFILL Mop Set"
+  - img
+- link "ELINOR PLASTIC SPINNER BUCKET MOP 360 REVOLVING CLEANIN...":
+  - /url: /elinor-plastic-spinner-bucket-mop-360-revolving-cleaning-2-microfiber-refill-set/p/itm47a0a3b1464f0?pid=MCWHMP4UCS2ZHUH6&lid=LSTMCWHMP4UCS2ZHUH66TDWDH&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_5&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHMP4UCS2ZHUH6.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4
+- img
+- text: (9,534)
+- img
+- link "₹448 ₹1,999 77% off":
+  - /url: /elinor-plastic-spinner-bucket-mop-360-revolving-cleaning-2-microfiber-refill-set/p/itm47a0a3b1464f0?pid=MCWHMP4UCS2ZHUH6&lid=LSTMCWHMP4UCS2ZHUH66TDWDH&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_5&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHMP4UCS2ZHUH6.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "UPC Microfiber Bucket 360? Flexible Head|Floor Cleaning Pocha Flat Mop Mop Set":
+  - /url: /upc-microfiber-bucket-360-flexible-head-floor-cleaning-pocha-flat-mop-set/p/itmf9e6c65e7277b?pid=MCWGGSQ3K3NAXG9R&lid=LSTMCWGGSQ3K3NAXG9RNAIDTV&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_6&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wOQldC4ccQ5Y8mvnM8Z-Vkk7Pojlph6_MkwnTjYKVhZ_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "UPC Microfiber Bucket 360? Flexible Head|Floor Cleaning Pocha Flat Mop Mop Set"
+  - img
+- img
+- link "UPC Microfiber Bucket 360? Flexible Head|Floor Cleaning...":
+  - /url: /upc-microfiber-bucket-360-flexible-head-floor-cleaning-pocha-flat-mop-set/p/itmf9e6c65e7277b?pid=MCWGGSQ3K3NAXG9R&lid=LSTMCWGGSQ3K3NAXG9RNAIDTV&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_6&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wOQldC4ccQ5Y8mvnM8Z-Vkk7Pojlph6_MkwnTjYKVhZ_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Green 4
+- img
+- text: (18,544)
+- img
+- link "₹1,096 ₹2,499 56% off":
+  - /url: /upc-microfiber-bucket-360-flexible-head-floor-cleaning-pocha-flat-mop-set/p/itmf9e6c65e7277b?pid=MCWGGSQ3K3NAXG9R&lid=LSTMCWGGSQ3K3NAXG9RNAIDTV&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_6&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wOQldC4ccQ5Y8mvnM8Z-Vkk7Pojlph6_MkwnTjYKVhZ_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "PALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop Set":
+  - /url: /palak-gamma-360-spinner-2-microfiber-heads-twin-bucket-mop-set/p/itm2249ffa1d613d?pid=MCWHBYK7WGFGGWEW&lid=LSTMCWHBYK7WGFGGWEWITIJLQ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_7&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHBYK7WGFGGWEW.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "PALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop Set"
+  - img
+- link "PALAK Gamma with 360° Spinner 2 Microfiber heads & Twin...":
+  - /url: /palak-gamma-360-spinner-2-microfiber-heads-twin-bucket-mop-set/p/itm2249ffa1d613d?pid=MCWHBYK7WGFGGWEW&lid=LSTMCWHBYK7WGFGGWEWITIJLQ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_7&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHBYK7WGFGGWEW.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Orange 4.4
+- img
+- text: (4,253)
+- img
+- link "₹500 ₹1,797 72% off":
+  - /url: /palak-gamma-360-spinner-2-microfiber-heads-twin-bucket-mop-set/p/itm2249ffa1d613d?pid=MCWHBYK7WGFGGWEW&lid=LSTMCWHBYK7WGFGGWEWITIJLQ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_7&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHBYK7WGFGGWEW.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop Set":
+  - /url: /flipkart-smartbuy-sprinkler-microfiber-refills-blue-color-mop-set/p/itm3ae8964fd44a0?pid=HCSGNAQEGGFS8GAW&lid=LSTHCSGNAQEGGFS8GAWLSHMPV&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_8&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGNAQEGGFS8GAW.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop Set"
+  - img
+- link "Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COL...":
+  - /url: /flipkart-smartbuy-sprinkler-microfiber-refills-blue-color-mop-set/p/itm3ae8964fd44a0?pid=HCSGNAQEGGFS8GAW&lid=LSTHCSGNAQEGGFS8GAWLSHMPV&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_8&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGNAQEGGFS8GAW.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4
+- img
+- text: (1,12,303)
+- img
+- link "₹646 ₹2,199 70% off":
+  - /url: /flipkart-smartbuy-sprinkler-microfiber-refills-blue-color-mop-set/p/itm3ae8964fd44a0?pid=HCSGNAQEGGFS8GAW&lid=LSTHCSGNAQEGGFS8GAWLSHMPV&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_8&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGNAQEGGFS8GAW.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "DM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves 100 Pcs | Food Grade Transparent Wet and Dry Disposable Glove Set":
+  - /url: /dm-specially-specialist-hdpe-disposable-poly-gloves-100-pcs-food-grade-transparent-wet-dry-glove-set/p/itmaab98003dda84?pid=CLGHH2GPDYKWN7DA&lid=LSTCLGHH2GPDYKWN7DAAMQHRB&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_9&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wHFGs404ieuHagAf---lIf1RQiC5XkC2oKCIctLa1DhA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "DM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves 100 Pcs | Food Grade Transparent Wet and Dry Disposable Glove Set"
+  - img
+- img
+- link "DM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...":
+  - /url: /dm-specially-specialist-hdpe-disposable-poly-gloves-100-pcs-food-grade-transparent-wet-dry-glove-set/p/itmaab98003dda84?pid=CLGHH2GPDYKWN7DA&lid=LSTCLGHH2GPDYKWN7DAAMQHRB&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_9&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wHFGs404ieuHagAf---lIf1RQiC5XkC2oKCIctLa1DhA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Free Size Pack of 100 4
+- img
+- text: (21)
+- link "₹90 ₹399 77% off":
+  - /url: /dm-specially-specialist-hdpe-disposable-poly-gloves-100-pcs-food-grade-transparent-wet-dry-glove-set/p/itmaab98003dda84?pid=CLGHH2GPDYKWN7DA&lid=LSTCLGHH2GPDYKWN7DAAMQHRB&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_9&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wHFGs404ieuHagAf---lIf1RQiC5XkC2oKCIctLa1DhA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "Gabani fashion trash can with lid Plastic Dustbin":
+  - /url: /gabani-fashion-trash-can-lid-plastic-dustbin/p/itmc4e12e81723c4?pid=DUBHNYXGDUQRXCBM&lid=LSTDUBHNYXGDUQRXCBM9KHCSR&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_10&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DUBHNYXGDUQRXCBM.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Gabani fashion trash can with lid Plastic Dustbin"
+  - img
+- link "Gabani fashion trash can with lid Plastic Dustbin":
+  - /url: /gabani-fashion-trash-can-lid-plastic-dustbin/p/itmc4e12e81723c4?pid=DUBHNYXGDUQRXCBM&lid=LSTDUBHNYXGDUQRXCBM9KHCSR&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_10&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DUBHNYXGDUQRXCBM.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Black
+- link "₹250 ₹499 49% off":
+  - /url: /gabani-fashion-trash-can-lid-plastic-dustbin/p/itmc4e12e81723c4?pid=DUBHNYXGDUQRXCBM&lid=LSTDUBHNYXGDUQRXCBM9KHCSR&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_10&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DUBHNYXGDUQRXCBM.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "ZARQITO Microfiber 100 inch ExtensionPole with Cleaning Fan High Ceiling Wet and Dry Duster":
+  - /url: /zarqito-microfiber-100-inch-extensionpole-cleaning-fan-high-ceiling-wet-dry-duster/p/itme7bcd1ecd7ea7?pid=DUSGNJUGFANTVJ9G&lid=LSTDUSGNJUGFANTVJ9GAGR5KM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_11&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0z7N7p_B1Tiw_gHSs_PnL-P4qyrKe0ORdbrPRcH9ffaDvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "ZARQITO Microfiber 100 inch ExtensionPole with Cleaning Fan High Ceiling Wet and Dry Duster"
+  - img
+- img
+- link "ZARQITO Microfiber 100 inch ExtensionPole with Cleaning...":
+  - /url: /zarqito-microfiber-100-inch-extensionpole-cleaning-fan-high-ceiling-wet-dry-duster/p/itme7bcd1ecd7ea7?pid=DUSGNJUGFANTVJ9G&lid=LSTDUSGNJUGFANTVJ9GAGR5KM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_11&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0z7N7p_B1Tiw_gHSs_PnL-P4qyrKe0ORdbrPRcH9ffaDvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: "3.9"
+- img
+- text: (25,481)
+- img
+- link "₹155 ₹899 82% off":
+  - /url: /zarqito-microfiber-100-inch-extensionpole-cleaning-fan-high-ceiling-wet-dry-duster/p/itme7bcd1ecd7ea7?pid=DUSGNJUGFANTVJ9G&lid=LSTDUSGNJUGFANTVJ9GAGR5KM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_11&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0z7N7p_B1Tiw_gHSs_PnL-P4qyrKe0ORdbrPRcH9ffaDvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub Pad":
+  - /url: /vewikzy-non-scratch-dish-wash-cloth-steel-wire-cloth-scrub-pad/p/itm889b7f37676ba?pid=SRPHD626CD2E7DNK&lid=LSTSRPHD626CD2E7DNKQQKJV5&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_12&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zflWws4TB7zRDJYsY94Y-vGVRx6UIZDzd_o1ijZcIzHA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub Pad"
+  - img
+- img
+- link "VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cl...":
+  - /url: /vewikzy-non-scratch-dish-wash-cloth-steel-wire-cloth-scrub-pad/p/itm889b7f37676ba?pid=SRPHD626CD2E7DNK&lid=LSTSRPHD626CD2E7DNKQQKJV5&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_12&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zflWws4TB7zRDJYsY94Y-vGVRx6UIZDzd_o1ijZcIzHA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Medium, Pack of 20 4
+- img
+- text: (415)
+- img
+- link "₹118 ₹699 83% off":
+  - /url: /vewikzy-non-scratch-dish-wash-cloth-steel-wire-cloth-scrub-pad/p/itm889b7f37676ba?pid=SRPHD626CD2E7DNK&lid=LSTSRPHD626CD2E7DNKQQKJV5&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_12&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zflWws4TB7zRDJYsY94Y-vGVRx6UIZDzd_o1ijZcIzHA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop Set":
+  - /url: /spotzero-milton-prime-spin-mop-stainless-steel-wringer-big-wheel-puller-handle-floor-cleaning-set/p/itm0cc6070dfabd0?pid=HCSF5G3VWDKRK56Y&lid=LSTHCSF5G3VWDKRK56YMYICPM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_13&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSF5G3VWDKRK56Y.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop Set"
+  - img
+- link "Spotzero by Milton Prime Spin Mop Stainless Steel Wring...":
+  - /url: /spotzero-milton-prime-spin-mop-stainless-steel-wringer-big-wheel-puller-handle-floor-cleaning-set/p/itm0cc6070dfabd0?pid=HCSF5G3VWDKRK56Y&lid=LSTHCSF5G3VWDKRK56YMYICPM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_13&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSF5G3VWDKRK56Y.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: "4.3"
+- img
+- text: (25,226)
+- img
+- link "₹1,449 ₹2,996 51% off":
+  - /url: /spotzero-milton-prime-spin-mop-stainless-steel-wringer-big-wheel-puller-handle-floor-cleaning-set/p/itm0cc6070dfabd0?pid=HCSF5G3VWDKRK56Y&lid=LSTHCSF5G3VWDKRK56YMYICPM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_13&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSF5G3VWDKRK56Y.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "Prestige PSB 10 Magic Mop with Steel Winger and 2 Mop-heads Mop Set":
+  - /url: /prestige-psb-10-magic-mop-steel-winger-2-mop-heads-set/p/itmdf798275d0c73?pid=MOSEHWHEX7JRZQBY&lid=LSTMOSEHWHEX7JRZQBYSZYBRQ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_14&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MOSEHWHEX7JRZQBY.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Prestige PSB 10 Magic Mop with Steel Winger and 2 Mop-heads Mop Set"
+  - img
+- link "Prestige PSB 10 Magic Mop with Steel Winger and 2 Mop-h...":
+  - /url: /prestige-psb-10-magic-mop-steel-winger-2-mop-heads-set/p/itmdf798275d0c73?pid=MOSEHWHEX7JRZQBY&lid=LSTMOSEHWHEX7JRZQBYSZYBRQ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_14&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MOSEHWHEX7JRZQBY.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Blue 4.2
+- img
+- text: (4,717)
+- img
+- link "₹1,250 ₹2,595 51% off":
+  - /url: /prestige-psb-10-magic-mop-steel-winger-2-mop-heads-set/p/itmdf798275d0c73?pid=MOSEHWHEX7JRZQBY&lid=LSTMOSEHWHEX7JRZQBYSZYBRQ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_14&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MOSEHWHEX7JRZQBY.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only 1 left
+- link "UNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads 2 Speed 90Min Cordless Cleaner Sponge, Nylon, Microfibre Wet and Dry Brush":
+  - /url: /unetri-pro-unetri-electric-spin-scrubber-9-brush-heads-2-speed-90min-cordless-cleaner-sponge-nylon-microfibre-wet-dry/p/itm14afe7bcefcfd?pid=BMBHN4FGEVVJPMCY&lid=LSTBMBHN4FGEVVJPMCYFVNAKJ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_15&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yDhAIKgDGoUU8pqAfajZk_D6-OfqxUYpWZHlqam6vhRg%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "UNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads 2 Speed 90Min Cordless Cleaner Sponge, Nylon, Microfibre Wet and Dry Brush"
+  - img
+- img
+- link "UNETRI-PRO UNETRI Electric Spin Scrubber 9 Brush Heads ...":
+  - /url: /unetri-pro-unetri-electric-spin-scrubber-9-brush-heads-2-speed-90min-cordless-cleaner-sponge-nylon-microfibre-wet-dry/p/itm14afe7bcefcfd?pid=BMBHN4FGEVVJPMCY&lid=LSTBMBHN4FGEVVJPMCYFVNAKJ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_15&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yDhAIKgDGoUU8pqAfajZk_D6-OfqxUYpWZHlqam6vhRg%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: White 4.1
+- img
+- text: (16)
+- img
+- link "₹719 ₹1,799 60% off":
+  - /url: /unetri-pro-unetri-electric-spin-scrubber-9-brush-heads-2-speed-90min-cordless-cleaner-sponge-nylon-microfibre-wet-dry/p/itm14afe7bcefcfd?pid=BMBHN4FGEVVJPMCY&lid=LSTBMBHN4FGEVVJPMCYFVNAKJ&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_15&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yDhAIKgDGoUU8pqAfajZk_D6-OfqxUYpWZHlqam6vhRg%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "Shivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wringing With 3 Super Absorbers Mop Set":
+  - /url: /shivonic-magic-dry-bucket-mop-360-degree-self-spin-wringing-3-super-absorbers-set/p/itmf4bdhphyjvwmf?pid=MCWF4BAGXMZKHAKM&lid=LSTMCWF4BAGXMZKHAKMRC8VSS&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_16&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWF4BAGXMZKHAKM.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Shivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wringing With 3 Super Absorbers Mop Set"
+  - img
+- link "Shivonic Magic Dry Bucket Mop - 360 Degree Self Spin Wr...":
+  - /url: /shivonic-magic-dry-bucket-mop-360-degree-self-spin-wringing-3-super-absorbers-set/p/itmf4bdhphyjvwmf?pid=MCWF4BAGXMZKHAKM&lid=LSTMCWF4BAGXMZKHAKMRC8VSS&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_16&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWF4BAGXMZKHAKM.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 3.9
+- img
+- text: (41,639)
+- img
+- link "₹450 ₹2,999 84% off":
+  - /url: /shivonic-magic-dry-bucket-mop-360-degree-self-spin-wringing-3-super-absorbers-set/p/itmf4bdhphyjvwmf?pid=MCWF4BAGXMZKHAKM&lid=LSTMCWF4BAGXMZKHAKMRC8VSS&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_BestsellerId_rja%2Fz2d&srno=b_1_16&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWF4BAGXMZKHAKM.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "MEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry Microfiber Cleaning Cloth":
+  - /url: /megakleen-microfiber-vehicle-washing-cloth-wet-dry-cleaning/p/itmdcc1b6c190452?pid=CLCGEH9EYCXWRXHW&lid=LSTCLCGEH9EYCXWRXHWQDEBA0&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_17&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zpcg3F6atDAhCd0FQEcmcgALBoSMz4GLktwJwn02SUdPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "MEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry Microfiber Cleaning Cloth"
+  - img
+- img
+- link "MEGAKLEEN Microfiber Vehicle Washing Cloth Wet and Dry ...":
+  - /url: /megakleen-microfiber-vehicle-washing-cloth-wet-dry-cleaning/p/itmdcc1b6c190452?pid=CLCGEH9EYCXWRXHW&lid=LSTCLCGEH9EYCXWRXHWQDEBA0&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_17&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zpcg3F6atDAhCd0FQEcmcgALBoSMz4GLktwJwn02SUdPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: 4 Units 3.9
+- img
+- text: (1,109)
+- link "₹110 ₹599 81% off":
+  - /url: /megakleen-microfiber-vehicle-washing-cloth-wet-dry-cleaning/p/itmdcc1b6c190452?pid=CLCGEH9EYCXWRXHW&lid=LSTCLCGEH9EYCXWRXHWQDEBA0&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_17&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zpcg3F6atDAhCd0FQEcmcgALBoSMz4GLktwJwn02SUdPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "VAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendable Handle Multipurpose Silicone Wet and Dry Broom":
+  - /url: /vavsu-3-1-magic-broom-silicone-floor-wiper-extendable-handle-multipurpose-wet-dry/p/itmafe5792994b63?pid=BMBHCY4H7FASDPS3&lid=LSTBMBHCY4H7FASDPS37NVIWY&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_18&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xvIRLClX_9vPNWdihSkb-RqPWNTnXBhqXhf4B-gzHsYvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "VAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendable Handle Multipurpose Silicone Wet and Dry Broom"
+  - img
+- img
+- link "VAVSU 3 in 1 Magic Broom Silicone Floor Wiper Extendabl...":
+  - /url: /vavsu-3-1-magic-broom-silicone-floor-wiper-extendable-handle-multipurpose-wet-dry/p/itmafe5792994b63?pid=BMBHCY4H7FASDPS3&lid=LSTBMBHCY4H7FASDPS37NVIWY&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_18&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xvIRLClX_9vPNWdihSkb-RqPWNTnXBhqXhf4B-gzHsYvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 3.8
+- img
+- text: (326)
+- img
+- link "₹164 ₹699 76% off":
+  - /url: /vavsu-3-1-magic-broom-silicone-floor-wiper-extendable-handle-multipurpose-wet-dry/p/itmafe5792994b63?pid=BMBHCY4H7FASDPS3&lid=LSTBMBHCY4H7FASDPS37NVIWY&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_18&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xvIRLClX_9vPNWdihSkb-RqPWNTnXBhqXhf4B-gzHsYvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "freedomall durable dustbin lightweight dustbin modern dustbin hygienic dustbin Plastic Dustbin":
+  - /url: /freedomall-durable-dustbin-lightweight-modern-hygienic-plastic/p/itm32a99ee653d99?pid=DUBHNBM9BFT9GTMV&lid=LSTDUBHNBM9BFT9GTMVUF638T&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_19&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DUBHNBM9BFT9GTMV.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "freedomall durable dustbin lightweight dustbin modern dustbin hygienic dustbin Plastic Dustbin"
+  - img
+- link "freedomall durable dustbin lightweight dustbin modern d...":
+  - /url: /freedomall-durable-dustbin-lightweight-modern-hygienic-plastic/p/itm32a99ee653d99?pid=DUBHNBM9BFT9GTMV&lid=LSTDUBHNBM9BFT9GTMVUF638T&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_19&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DUBHNBM9BFT9GTMV.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Green
+- link "₹362 ₹799 54% off":
+  - /url: /freedomall-durable-dustbin-lightweight-modern-hygienic-plastic/p/itm32a99ee653d99?pid=DUBHNBM9BFT9GTMV&lid=LSTDUBHNBM9BFT9GTMVUF638T&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_19&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DUBHNBM9BFT9GTMV.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "Flipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Absorbers,Wet and Dry Mop Set":
+  - /url: /flipkart-smartbuy-easy-clean-floor-magic-bucket-2-absorbers-wet-dry-mop-set/p/itmd35103f2e3221?pid=MCWHJ272ZKGDZWE3&lid=LSTMCWHJ272ZKGDZWE3QF0VSV&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_20&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHJ272ZKGDZWE3.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Flipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Absorbers,Wet and Dry Mop Set"
+  - img
+- link "Flipkart SmartBuy Easy To Clean Floor Magic Bucket 2 Ab...":
+  - /url: /flipkart-smartbuy-easy-clean-floor-magic-bucket-2-absorbers-wet-dry-mop-set/p/itmd35103f2e3221?pid=MCWHJ272ZKGDZWE3&lid=LSTMCWHJ272ZKGDZWE3QF0VSV&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_20&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHJ272ZKGDZWE3.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4.1
+- img
+- text: (54,975)
+- link "₹562 ₹1,999 71% off":
+  - /url: /flipkart-smartbuy-easy-clean-floor-magic-bucket-2-absorbers-wet-dry-mop-set/p/itmd35103f2e3221?pid=MCWHJ272ZKGDZWE3&lid=LSTMCWHJ272ZKGDZWE3QF0VSV&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_20&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHJ272ZKGDZWE3.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "INASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUSH PACK":
+  - /url: /inasan-toilet-cleanigng-combo-carpet-cleaning-brush-pack/p/itm646e4bba32f0e?pid=TBSHAC77GXM2A6VM&lid=LSTTBSHAC77GXM2A6VMPZ6ECM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_21&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0y9c4xikVex-yMYaYTrfmjNQkhoSW1i6WQubQKGfAOUcQ%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "INASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUSH PACK"
+  - img
+- img
+- link "INASAN TOILET CLEANIGNG COMBO WITH CARPET CLEANING BRUS...":
+  - /url: /inasan-toilet-cleanigng-combo-carpet-cleaning-brush-pack/p/itm646e4bba32f0e?pid=TBSHAC77GXM2A6VM&lid=LSTTBSHAC77GXM2A6VMPZ6ECM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_21&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0y9c4xikVex-yMYaYTrfmjNQkhoSW1i6WQubQKGfAOUcQ%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4
+- img
+- text: (1,032)
+- link "₹154 ₹599 74% off":
+  - /url: /inasan-toilet-cleanigng-combo-carpet-cleaning-brush-pack/p/itm646e4bba32f0e?pid=TBSHAC77GXM2A6VM&lid=LSTTBSHAC77GXM2A6VMPZ6ECM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_21&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0y9c4xikVex-yMYaYTrfmjNQkhoSW1i6WQubQKGfAOUcQ%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "DM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Latex Free Perfect Food Handling Wet and Dry Disposable Glove Set":
+  - /url: /dm-specially-specialist-plastic-gloves-bpa-latex-free-perfect-food-handling-wet-dry-disposable-glove-set/p/itm02f652ce06c7b?pid=CLGH5VR52ZGKRZ94&lid=LSTCLGH5VR52ZGKRZ94XXQGW6&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_22&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zJ2OxYFyvzQn30JVEdqCI1C3AkGVza6mtvAEgSO0ng7A%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "DM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Latex Free Perfect Food Handling Wet and Dry Disposable Glove Set"
+  - img
+- img
+- link "DM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Late...":
+  - /url: /dm-specially-specialist-plastic-gloves-bpa-latex-free-perfect-food-handling-wet-dry-disposable-glove-set/p/itm02f652ce06c7b?pid=CLGH5VR52ZGKRZ94&lid=LSTCLGH5VR52ZGKRZ94XXQGW6&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_22&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zJ2OxYFyvzQn30JVEdqCI1C3AkGVza6mtvAEgSO0ng7A%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Free Size Pack of 200 3.9
+- img
+- text: (4,197)
+- img
+- link "₹111 ₹399 72% off":
+  - /url: /dm-specially-specialist-plastic-gloves-bpa-latex-free-perfect-food-handling-wet-dry-disposable-glove-set/p/itm02f652ce06c7b?pid=CLGH5VR52ZGKRZ94&lid=LSTCLGH5VR52ZGKRZ94XXQGW6&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_22&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0zJ2OxYFyvzQn30JVEdqCI1C3AkGVza6mtvAEgSO0ng7A%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "WAYMORE Pride Mop floor cleaner pocha with steel wringer, jumbo wheels and 2 refills Mop Set":
+  - /url: /waymore-pride-mop-floor-cleaner-pocha-steel-wringer-jumbo-wheels-2-refills-set/p/itm0cb5b3a5def87?pid=MCWGQXAZGR5PVEZG&lid=LSTMCWGQXAZGR5PVEZGLRZ4VO&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_23&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWGQXAZGR5PVEZG.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "WAYMORE Pride Mop floor cleaner pocha with steel wringer, jumbo wheels and 2 refills Mop Set"
+  - img
+- link "WAYMORE Pride Mop floor cleaner pocha with steel wringe...":
+  - /url: /waymore-pride-mop-floor-cleaner-pocha-steel-wringer-jumbo-wheels-2-refills-set/p/itm0cb5b3a5def87?pid=MCWGQXAZGR5PVEZG&lid=LSTMCWGQXAZGR5PVEZGLRZ4VO&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_23&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWGQXAZGR5PVEZG.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 3.9
+- img
+- text: (2,661)
+- link "₹900 ₹3,499 74% off":
+  - /url: /waymore-pride-mop-floor-cleaner-pocha-steel-wringer-jumbo-wheels-2-refills-set/p/itm0cb5b3a5def87?pid=MCWGQXAZGR5PVEZG&lid=LSTMCWGQXAZGR5PVEZGLRZ4VO&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_23&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWGQXAZGR5PVEZG.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "SINGH ENTERPRISES Stainless Steel Dustpan":
+  - /url: /singh-enterprises-stainless-steel-dustpan/p/itm6cfc40e298285?pid=DPNHNNPXKHDGYXYH&lid=LSTDPNHNNPXKHDGYXYHAKXOIF&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_24&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DPNHNNPXKHDGYXYH.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "SINGH ENTERPRISES Stainless Steel Dustpan"
+  - img
+- link "SINGH ENTERPRISES Stainless Steel Dustpan":
+  - /url: /singh-enterprises-stainless-steel-dustpan/p/itm6cfc40e298285?pid=DPNHNNPXKHDGYXYH&lid=LSTDPNHNNPXKHDGYXYHAKXOIF&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_24&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DPNHNNPXKHDGYXYH.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Steel
+- link "₹225 ₹599 62% off":
+  - /url: /singh-enterprises-stainless-steel-dustpan/p/itm6cfc40e298285?pid=DPNHNNPXKHDGYXYH&lid=LSTDPNHNNPXKHDGYXYHAKXOIF&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_24&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DPNHNNPXKHDGYXYH.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry Mop":
+  - /url: /kleverdot-mini-handheld-wet-dry-desktop-mop/p/itmf34322717410b?pid=MCWHHJNH6CKP9AQM&lid=LSTMCWHHJNH6CKP9AQMC8IL9Z&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_25&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ySnrpQIZEucAxzFPMi3FmYqZ6Tea6QUXMumIULZh1zkA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry Mop"
+  - img
+- img
+- link "KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & D...":
+  - /url: /kleverdot-mini-handheld-wet-dry-desktop-mop/p/itmf34322717410b?pid=MCWHHJNH6CKP9AQM&lid=LSTMCWHHJNH6CKP9AQMC8IL9Z&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_25&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ySnrpQIZEucAxzFPMi3FmYqZ6Tea6QUXMumIULZh1zkA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 3.6
+- img
+- text: (110)
+- link "₹141 ₹599 76% off":
+  - /url: /kleverdot-mini-handheld-wet-dry-desktop-mop/p/itmf34322717410b?pid=MCWHHJNH6CKP9AQM&lid=LSTMCWHHJNH6CKP9AQMC8IL9Z&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_25&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ySnrpQIZEucAxzFPMi3FmYqZ6Tea6QUXMumIULZh1zkA%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "HANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large Edition 2000 Litre. Plastic Wet and Dry Brush":
+  - /url: /hanbaaz-hanbaz-water-tank-cleaner-home-extra-large-2000-litre-plastic-wet-dry-brush/p/itm8f369c7e9b138?pid=HCSGWF52XTGR6TV8&lid=LSTHCSGWF52XTGR6TV8YWTKGN&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_TrendingId_rja%2Fz2d&srno=b_1_26&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGWF52XTGR6TV8.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "HANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large Edition 2000 Litre. Plastic Wet and Dry Brush"
+  - img
+- link "HANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large ...":
+  - /url: /hanbaaz-hanbaz-water-tank-cleaner-home-extra-large-2000-litre-plastic-wet-dry-brush/p/itm8f369c7e9b138?pid=HCSGWF52XTGR6TV8&lid=LSTHCSGWF52XTGR6TV8YWTKGN&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_TrendingId_rja%2Fz2d&srno=b_1_26&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGWF52XTGR6TV8.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Blue 4
+- img
+- text: (22)
+- link "₹1,526 ₹2,500 38% off":
+  - /url: /hanbaaz-hanbaz-water-tank-cleaner-home-extra-large-2000-litre-plastic-wet-dry-brush/p/itm8f369c7e9b138?pid=HCSGWF52XTGR6TV8&lid=LSTHCSGWF52XTGR6TV8YWTKGN&marketplace=FLIPKART&store=rja%2Fz2d&spotlightTagId=default_TrendingId_rja%2Fz2d&srno=b_1_26&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSGWF52XTGR6TV8.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning Cloth":
+  - /url: /dr-vs-microfiber-cleaning-cloth-roll-eco-friendly-kitchen-use-25-cm-dry/p/itm422a3a6328fb4?pid=CLCHGHZ8ZD425BYA&lid=LSTCLCHGHZ8ZD425BYAXPHSBS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_27&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xVYqaEp2flh8IcvxqPc0odOJ2taoLF2ztXkK4KfI-KnfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning Cloth"
+  - img
+- img
+- link "DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Clo...":
+  - /url: /dr-vs-microfiber-cleaning-cloth-roll-eco-friendly-kitchen-use-25-cm-dry/p/itm422a3a6328fb4?pid=CLCHGHZ8ZD425BYA&lid=LSTCLCHGHZ8ZD425BYAXPHSBS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_27&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xVYqaEp2flh8IcvxqPc0odOJ2taoLF2ztXkK4KfI-KnfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: 20 Units 4.2
+- img
+- text: (90)
+- img
+- link "₹154 ₹499 69% off":
+  - /url: /dr-vs-microfiber-cleaning-cloth-roll-eco-friendly-kitchen-use-25-cm-dry/p/itm422a3a6328fb4?pid=CLCHGHZ8ZD425BYA&lid=LSTCLCHGHZ8ZD425BYAXPHSBS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_27&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xVYqaEp2flh8IcvxqPc0odOJ2taoLF2ztXkK4KfI-KnfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "KITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale Hard Water Stain Remover Scrub Sponge":
+  - /url: /kitchen-clean-magic-eraser-cuboid-wall-stain-lime-scale-hard-water-remover-scrub-sponge/p/itm5de97d9837cd0?pid=SRPHCYR7KERJH6X7&lid=LSTSRPHCYR7KERJH6X7M7TMNS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_28&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wuVO7LzcsxbEaVGuINFTGXhxELvXfmE2nI7RCPhVKoBPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "KITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale Hard Water Stain Remover Scrub Sponge"
+  - img
+- img
+- link "KITCHEN CLEAN Magic Eraser Cuboid Wall Stain Lime Scale...":
+  - /url: /kitchen-clean-magic-eraser-cuboid-wall-stain-lime-scale-hard-water-remover-scrub-sponge/p/itm5de97d9837cd0?pid=SRPHCYR7KERJH6X7&lid=LSTSRPHCYR7KERJH6X7M7TMNS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_28&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wuVO7LzcsxbEaVGuINFTGXhxELvXfmE2nI7RCPhVKoBPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Small, Pack of 5 3.7
+- img
+- text: (3,113)
+- link "₹130 ₹399 67% off":
+  - /url: /kitchen-clean-magic-eraser-cuboid-wall-stain-lime-scale-hard-water-remover-scrub-sponge/p/itm5de97d9837cd0?pid=SRPHCYR7KERJH6X7&lid=LSTSRPHCYR7KERJH6X7M7TMNS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_28&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0wuVO7LzcsxbEaVGuINFTGXhxELvXfmE2nI7RCPhVKoBPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "Spotzero by Milton eELITE SPIN MOP Mop Set":
+  - /url: /spotzero-milton-eelite-spin-mop-set/p/itm39bc87e144489?pid=HCSFVZDCWAK9HRVH&lid=LSTHCSFVZDCWAK9HRVHOD52HC&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_29&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFVZDCWAK9HRVH.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Spotzero by Milton eELITE SPIN MOP Mop Set"
+  - img
+- link "Spotzero by Milton eELITE SPIN MOP Mop Set":
+  - /url: /spotzero-milton-eelite-spin-mop-set/p/itm39bc87e144489?pid=HCSFVZDCWAK9HRVH&lid=LSTHCSFVZDCWAK9HRVHOD52HC&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_29&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFVZDCWAK9HRVH.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4.3
+- img
+- text: (20,571)
+- img
+- link "₹1,199 ₹1,899 36% off":
+  - /url: /spotzero-milton-eelite-spin-mop-set/p/itm39bc87e144489?pid=HCSFVZDCWAK9HRVH&lid=LSTHCSFVZDCWAK9HRVHOD52HC&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_29&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFVZDCWAK9HRVH.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only 1 left
+- link "Tankit 2 Refills Mop Set Cleaning Bucket Mop Blue Classic Mop Set":
+  - /url: /tankit-2-refills-mop-set-cleaning-bucket-blue-classic/p/itmdba9a02a1deeb?pid=HCSFYEEFFJGEHZGZ&lid=LSTHCSFYEEFFJGEHZGZFOWDUR&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_30&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFYEEFFJGEHZGZ.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Tankit 2 Refills Mop Set Cleaning Bucket Mop Blue Classic Mop Set"
+  - img
+- link "Tankit 2 Refills Mop Set Cleaning Bucket Mop Blue Class...":
+  - /url: /tankit-2-refills-mop-set-cleaning-bucket-blue-classic/p/itmdba9a02a1deeb?pid=HCSFYEEFFJGEHZGZ&lid=LSTHCSFYEEFFJGEHZGZFOWDUR&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_30&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFYEEFFJGEHZGZ.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Blue 3.9
+- img
+- text: (2,653)
+- img
+- link "₹440 ₹1,199 63% off":
+  - /url: /tankit-2-refills-mop-set-cleaning-bucket-blue-classic/p/itmdba9a02a1deeb?pid=HCSFYEEFFJGEHZGZ&lid=LSTHCSFYEEFFJGEHZGZFOWDUR&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_30&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFYEEFFJGEHZGZ.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "ORIDOR Car Washing and Detailing Kit with Microfiber Duster Brushes and Cloth Wet and Dry Duster Set":
+  - /url: /oridor-car-washing-detailing-kit-microfiber-duster-brushes-cloth-wet-dry-set/p/itm409c4fc32dfe8?pid=DUSHJHWUT5ZRXNGD&lid=LSTDUSHJHWUT5ZRXNGDOQNAD7&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_31&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xl6fLLG3KKHsmTsO2_y4LEARRh7iRruE5XQ_sMwj5qFvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "ORIDOR Car Washing and Detailing Kit with Microfiber Duster Brushes and Cloth Wet and Dry Duster Set"
+  - img
+- img
+- link "ORIDOR Car Washing and Detailing Kit with Microfiber Du...":
+  - /url: /oridor-car-washing-detailing-kit-microfiber-duster-brushes-cloth-wet-dry-set/p/itm409c4fc32dfe8?pid=DUSHJHWUT5ZRXNGD&lid=LSTDUSHJHWUT5ZRXNGDOQNAD7&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_31&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xl6fLLG3KKHsmTsO2_y4LEARRh7iRruE5XQ_sMwj5qFvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Pack of 5 4.2
+- img
+- text: (60)
+- img
+- link "₹297 ₹1,199 75% off":
+  - /url: /oridor-car-washing-detailing-kit-microfiber-duster-brushes-cloth-wet-dry-set/p/itm409c4fc32dfe8?pid=DUSHJHWUT5ZRXNGD&lid=LSTDUSHJHWUT5ZRXNGDOQNAD7&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_31&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xl6fLLG3KKHsmTsO2_y4LEARRh7iRruE5XQ_sMwj5qFvUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry Brush":
+  - /url: /vewikzy-3-1-bathroom-wiper-tiles-cleaning-brush-handle-microfibre-wet-dry/p/itm5e11c3f0fec4e?pid=BMBGT68XGZ5YZ8K4&lid=LSTBMBGT68XGZ5YZ8K4TDTM1C&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_32&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ym7Zlb3FDSUIrl-KAiZ6xxzswh-WsSKoqyBoRloD-3R_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry Brush"
+  - img
+- img
+- link "VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brus...":
+  - /url: /vewikzy-3-1-bathroom-wiper-tiles-cleaning-brush-handle-microfibre-wet-dry/p/itm5e11c3f0fec4e?pid=BMBGT68XGZ5YZ8K4&lid=LSTBMBGT68XGZ5YZ8K4TDTM1C&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_32&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ym7Zlb3FDSUIrl-KAiZ6xxzswh-WsSKoqyBoRloD-3R_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 3.4
+- img
+- text: (16,424)
+- link "₹162 ₹899 81% off":
+  - /url: /vewikzy-3-1-bathroom-wiper-tiles-cleaning-brush-handle-microfibre-wet-dry/p/itm5e11c3f0fec4e?pid=BMBGT68XGZ5YZ8K4&lid=LSTBMBGT68XGZ5YZ8K4TDTM1C&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_32&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0ym7Zlb3FDSUIrl-KAiZ6xxzswh-WsSKoqyBoRloD-3R_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "RadheTrade RT-Dustpan Plastic, Stainless Steel Dustpan":
+  - /url: /radhetrade-rt-dustpan-plastic-stainless-steel-dustpan/p/itm2e1d6cc4ed1d1?pid=DPNHA2WJYXWVYH49&lid=LSTDPNHA2WJYXWVYH49NRO4MU&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_33&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DPNHA2WJYXWVYH49.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "RadheTrade RT-Dustpan Plastic, Stainless Steel Dustpan"
+  - img
+- link "RadheTrade RT-Dustpan Plastic, Stainless Steel Dustpan":
+  - /url: /radhetrade-rt-dustpan-plastic-stainless-steel-dustpan/p/itm2e1d6cc4ed1d1?pid=DPNHA2WJYXWVYH49&lid=LSTDPNHA2WJYXWVYH49NRO4MU&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_33&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DPNHA2WJYXWVYH49.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 4.3
+- img
+- text: (450)
+- img
+- link "₹435 ₹1,299 66% off":
+  - /url: /radhetrade-rt-dustpan-plastic-stainless-steel-dustpan/p/itm2e1d6cc4ed1d1?pid=DPNHA2WJYXWVYH49&lid=LSTDPNHA2WJYXWVYH49NRO4MU&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_33&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.DPNHA2WJYXWVYH49.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "Kanak Plastic Wet and Dry Brush":
+  - /url: /kanak-plastic-wet-dry-brush/p/itm5ce0470e5fda9?pid=BMBG6JR3G7BFW5JY&lid=LSTBMBG6JR3G7BFW5JYCXN2MN&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_34&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.BMBG6JR3G7BFW5JY.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Kanak Plastic Wet and Dry Brush"
+  - img
+- link "Kanak Plastic Wet and Dry Brush":
+  - /url: /kanak-plastic-wet-dry-brush/p/itm5ce0470e5fda9?pid=BMBG6JR3G7BFW5JY&lid=LSTBMBG6JR3G7BFW5JYCXN2MN&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_34&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.BMBG6JR3G7BFW5JY.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Blue 3.6
+- img
+- text: (6,847)
+- link "₹178 ₹599 70% off":
+  - /url: /kanak-plastic-wet-dry-brush/p/itm5ce0470e5fda9?pid=BMBG6JR3G7BFW5JY&lid=LSTBMBG6JR3G7BFW5JYCXN2MN&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_34&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.BMBG6JR3G7BFW5JY.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "VAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Glass, Windows, Cars Wet & Dry Mop":
+  - /url: /vaxillo-mini-foldable-desktop-mop-kitchen-bathroom-glass-windows-cars-wet-dry/p/itme13a196636d02?pid=MCWHHT3PHGBSPTUR&lid=LSTMCWHHT3PHGBSPTURPVQD1T&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_35&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yuAbYKGjXmoz8M5Yj0zEnzqdkICt_ny8hdBkCw29ez0w%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "VAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Glass, Windows, Cars Wet & Dry Mop"
+  - img
+- img
+- link "VAXILLO Mini Foldable Desktop Mop Kitchen, Bathroom, Gl...":
+  - /url: /vaxillo-mini-foldable-desktop-mop-kitchen-bathroom-glass-windows-cars-wet-dry/p/itme13a196636d02?pid=MCWHHT3PHGBSPTUR&lid=LSTMCWHHT3PHGBSPTURPVQD1T&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_35&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yuAbYKGjXmoz8M5Yj0zEnzqdkICt_ny8hdBkCw29ez0w%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Multicolor 3.6
+- img
+- text: (94)
+- link "₹141 ₹999 85% off":
+  - /url: /vaxillo-mini-foldable-desktop-mop-kitchen-bathroom-glass-windows-cars-wet-dry/p/itme13a196636d02?pid=MCWHHT3PHGBSPTUR&lid=LSTMCWHHT3PHGBSPTURPVQD1T&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_35&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yuAbYKGjXmoz8M5Yj0zEnzqdkICt_ny8hdBkCw29ez0w%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "VINTAGE CREATION Premium Car Interior Cleaning Wipes 80 Sheets Pack of 2 Wipes":
+  - /url: /vintage-creation-premium-car-interior-cleaning-wipes-80-sheets-pack-2/p/itmcb7dcdab1a85b?pid=MCWHNJ5HYAHXMBUS&lid=LSTMCWHNJ5HYAHXMBUSM3LKLE&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_36&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHNJ5HYAHXMBUS.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "VINTAGE CREATION Premium Car Interior Cleaning Wipes 80 Sheets Pack of 2 Wipes"
+  - img
+- link "VINTAGE CREATION Premium Car Interior Cleaning Wipes 80...":
+  - /url: /vintage-creation-premium-car-interior-cleaning-wipes-80-sheets-pack-2/p/itmcb7dcdab1a85b?pid=MCWHNJ5HYAHXMBUS&lid=LSTMCWHNJ5HYAHXMBUSM3LKLE&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_36&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHNJ5HYAHXMBUS.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: White
+- link "₹136 ₹299 54% off":
+  - /url: /vintage-creation-premium-car-interior-cleaning-wipes-80-sheets-pack-2/p/itmcb7dcdab1a85b?pid=MCWHNJ5HYAHXMBUS&lid=LSTMCWHNJ5HYAHXMBUSM3LKLE&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_36&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.MCWHNJ5HYAHXMBUS.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left
+- link "NEYU Multifunctional Magic Broom Sweeper, 180-Degree Rotatable Floor Cleaning Wiper, Microfibre, Plastic, Silicone Wet and Dry Broom":
+  - /url: /neyu-multifunctional-magic-broom-sweeper-180-degree-rotatable-floor-cleaning-wiper-microfibre-plastic-silicone-wet-dry/p/itmd7cef0e9ebc65?pid=BMBH6MJFNVYGTGDB&lid=LSTBMBH6MJFNVYGTGDBQSXXVS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_37&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xXTOXKnjmqmt59NWEdced1YwNVq4F3t1igunaq1jFi0w%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "NEYU Multifunctional Magic Broom Sweeper, 180-Degree Rotatable Floor Cleaning Wiper, Microfibre, Plastic, Silicone Wet and Dry Broom"
+  - img
+- img
+- link "NEYU Multifunctional Magic Broom Sweeper, 180-Degree Ro...":
+  - /url: /neyu-multifunctional-magic-broom-sweeper-180-degree-rotatable-floor-cleaning-wiper-microfibre-plastic-silicone-wet-dry/p/itmd7cef0e9ebc65?pid=BMBH6MJFNVYGTGDB&lid=LSTBMBH6MJFNVYGTGDBQSXXVS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_37&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xXTOXKnjmqmt59NWEdced1YwNVq4F3t1igunaq1jFi0w%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Grey 3.8
+- img
+- text: (1,451)
+- img
+- link "₹227 ₹999 77% off":
+  - /url: /neyu-multifunctional-magic-broom-sweeper-180-degree-rotatable-floor-cleaning-wiper-microfibre-plastic-silicone-wet-dry/p/itmd7cef0e9ebc65?pid=BMBH6MJFNVYGTGDB&lid=LSTBMBH6MJFNVYGTGDBQSXXVS&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_37&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0xXTOXKnjmqmt59NWEdced1YwNVq4F3t1igunaq1jFi0w%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Hot Deal
+- link "SHREEHARI elite mop Mop Set":
+  - /url: /shreehari-elite-mop-set/p/itm773f56b079637?pid=MCWHCKPYRY7XQHHY&lid=LSTMCWHCKPYRY7XQHHYZFBEGX&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_38&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yeG3864PSQ067R94JlZHYqbunlNniUZ15BxDxkuDBJOw%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "SHREEHARI elite mop Mop Set"
+  - img
+- img
+- link "SHREEHARI elite mop Mop Set":
+  - /url: /shreehari-elite-mop-set/p/itm773f56b079637?pid=MCWHCKPYRY7XQHHY&lid=LSTMCWHCKPYRY7XQHHYZFBEGX&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_38&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yeG3864PSQ067R94JlZHYqbunlNniUZ15BxDxkuDBJOw%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Grey 3.4
+- img
+- text: (441)
+- link "₹264 ₹679 61% off":
+  - /url: /shreehari-elite-mop-set/p/itm773f56b079637?pid=MCWHCKPYRY7XQHHY&lid=LSTMCWHCKPYRY7XQHHYZFBEGX&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_38&otracker=browse&fm=organic&iid=en_lU2LJCCxvkoYBuVj7Xlln6i6CBVDP_9j5tN77nOBL0yeG3864PSQ067R94JlZHYqbunlNniUZ15BxDxkuDBJOw%3D%3D&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- link "Spotzero by Milton ROYALE SPIN Mop Set":
+  - /url: /spotzero-milton-royale-spin-mop-set/p/itm3189482b5c79c?pid=HCSFJ5MYTXDEVFFX&lid=LSTHCSFJ5MYTXDEVFFXYSQNRM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_39&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFJ5MYTXDEVFFX.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Spotzero by Milton ROYALE SPIN Mop Set"
+  - img
+- link "Spotzero by Milton ROYALE SPIN Mop Set":
+  - /url: /spotzero-milton-royale-spin-mop-set/p/itm3189482b5c79c?pid=HCSFJ5MYTXDEVFFX&lid=LSTHCSFJ5MYTXDEVFFXYSQNRM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_39&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFJ5MYTXDEVFFX.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Green, Grey 4.4
+- img
+- text: (58,367)
+- img
+- link "₹1,599 ₹2,699 40% off":
+  - /url: /spotzero-milton-royale-spin-mop-set/p/itm3189482b5c79c?pid=HCSFJ5MYTXDEVFFX&lid=LSTHCSFJ5MYTXDEVFFXYSQNRM&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_39&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.HCSFJ5MYTXDEVFFX.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only 3 left
+- link "Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge Wipe":
+  - /url: /klenzzmo-kleenest-magic-eraser-cleaning-pack-4-chemical-free-sponge-wipe/p/itmbc23a6e0aa139?pid=SRPHNZ8XJWHTAEXG&lid=LSTSRPHNZ8XJWHTAEXGPGBJX9&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_40&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.SRPHNZ8XJWHTAEXG.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+  - img "Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge Wipe"
+  - img
+- link "Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Che...":
+  - /url: /klenzzmo-kleenest-magic-eraser-cleaning-pack-4-chemical-free-sponge-wipe/p/itmbc23a6e0aa139?pid=SRPHNZ8XJWHTAEXG&lid=LSTSRPHNZ8XJWHTAEXGPGBJX9&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_40&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.SRPHNZ8XJWHTAEXG.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Regular, Pack of 4 4.3
+- img
+- text: (4)
+- link "₹232 ₹999 76% off":
+  - /url: /klenzzmo-kleenest-magic-eraser-cleaning-pack-4-chemical-free-sponge-wipe/p/itmbc23a6e0aa139?pid=SRPHNZ8XJWHTAEXG&lid=LSTSRPHNZ8XJWHTAEXGPGBJX9&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_40&otracker=browse&fm=organic&iid=773ac876-8757-47ce-a861-c2bbd0bd7d3b.SRPHNZ8XJWHTAEXG.SEARCH&ppt=None&ppn=None&ssid=ades73qosg0000001780922755419&ov_redirect=true&ov_redirect=true
+- text: Only few left Page 1 of 253
+- navigation:
+  - link "1":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=1
+  - link "2":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=2
+  - link "3":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=3
+  - link "4":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=4
+  - link "5":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=5
+  - link "6":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=6
+  - link "7":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=7
+  - link "8":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=8
+  - link "9":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=9
+  - link "10":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=10
+  - link "Next":
+    - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&page=2
+- text: Did you find what you were looking for? Yes No Reviews for Popular Cleaning Supplies
+- img "Prestige Alpha with 2 Microfiber heads 360 Degree Spinner Mop Set"
+- link "1. Prestige Alpha with 2 Micro... 4.1 1,09,078 Ratings&5,950 Reviews ₹849 46% off":
+  - /url: /prestige-alpha-2-microfiber-heads-360-degree-spinner-mop-set/p/itm3f6557300be6d?pid=HCSGMV5FF5XHHFBW&marketplace=FLIPKART&ov_redirect=true
+  - text: 1. Prestige Alpha with 2 Micro... 4.1
+  - img
+  - text: 1,09,078 Ratings&5,950 Reviews ₹849 46% off
+- list:
+  - listitem: "Type: Mop Set"
+  - listitem: "Power Source: NA"
+  - listitem: "Pack of: 1"
+- text: Most Helpful Review 3
+- img
+- paragraph: Just okay
+- text: Working fine but quality is not expected well
+- paragraph: tushar machhi
+- img
+- paragraph: Certified Buyer
+- paragraph: Jul, 2023
+- text: Recent Review 4
+- img
+- paragraph: Really Nice
+- text: Nice and light weight easy to use
+- paragraph: Nitesh Karn
+- img
+- paragraph: Certified Buyer
+- paragraph: 1 day ago
+- img "HANBAAZ HANBAZ Water Tank Cleaner For Home-Extra Large Edition 2000 Litre. Plastic Wet and Dry Brush"
+- link "2. HANBAAZ HANBAZ Water Tank C... 4 22 Ratings&3 Reviews ₹1,526 38% off":
+  - /url: /hanbaaz-hanbaz-water-tank-cleaner-home-extra-large-2000-litre-plastic-wet-dry-brush/p/itm8f369c7e9b138?pid=HCSGWF52XTGR6TV8&marketplace=FLIPKART&ov_redirect=true
+  - text: 2. HANBAAZ HANBAZ Water Tank C... 4
+  - img
+  - text: 22 Ratings&3 Reviews ₹1,526 38% off
+- list:
+  - listitem: "Type: Brush"
+  - listitem: "Brush Material: Plastic"
+  - listitem: "Handle Material: Steel, Iron"
+- text: Most Helpful Review 1
+- img
+- paragraph: Horrible
+- text: Very bad product, 👎 don't buy
+- paragraph: Vaishna v
+- img
+- paragraph: Certified Buyer
+- paragraph: 28 days ago
+- text: Recent Review 1
+- img
+- paragraph: Horrible
+- text: Very bad product, 👎 don't buy
+- paragraph: Vaishna v
+- img
+- paragraph: Certified Buyer
+- paragraph: 28 days ago
+- img "DM SPECIALLY FOR SPECIALIST Plastic Gloves - BPA & Latex Free Perfect Food Handling Wet and Dry Disposable Glove Set"
+- link "3. DM SPECIALLY FOR SPECIALIST... 3.9 4,197 Ratings&171 Reviews ₹111 72% off":
+  - /url: /dm-specially-specialist-plastic-gloves-bpa-latex-free-perfect-food-handling-wet-dry-disposable-glove-set/p/itm02f652ce06c7b?pid=CLGH5VR52ZGKRZ94&marketplace=FLIPKART&ov_redirect=true
+  - text: 3. DM SPECIALLY FOR SPECIALIST... 3.9
+  - img
+  - text: 4,197 Ratings&171 Reviews ₹111 72% off
+- list:
+  - listitem: "Pack of: 200"
+  - listitem: Free Size
+  - listitem: "Usage Type: Wet and Dry"
+- text: Most Helpful Review 5
+- img
+- paragraph: Super!
+- text: Khup chan thank u so much
+- paragraph: Monali Dhayagude
+- img
+- paragraph: Certified Buyer
+- paragraph: 7 months ago
+- text: Recent Review 1
+- img
+- paragraph: Unsatisfactory
+- text: Very small size it's for children not for adults
+- paragraph: Sima Srivastava
+- img
+- paragraph: Certified Buyer
+- paragraph: Today
+- img "Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop Set"
+- link "4. Flipkart SmartBuy SPRINKLER... 4 1,12,303 Ratings&7,346 Reviews ₹646 70% off":
+  - /url: /flipkart-smartbuy-sprinkler-microfiber-refills-blue-color-mop-set/p/itm3ae8964fd44a0?pid=HCSGNAQEGGFS8GAW&marketplace=FLIPKART&ov_redirect=true
+  - text: 4. Flipkart SmartBuy SPRINKLER... 4
+  - img
+  - text: 1,12,303 Ratings&7,346 Reviews ₹646 70% off
+- list:
+  - listitem: "Type: Mop Set"
+  - listitem: "Power Source: NA"
+  - listitem: "Pack of: 1"
+- text: Most Helpful Review 5
+- img
+- paragraph: Must buy!
+- text: It's a very good product and it's build quality is best non as other ..... I am fully satisfied with this product.... ❤️
+- paragraph: Bicky Kumar
+- img
+- paragraph: Certified Buyer
+- paragraph: Jun, 2024
+- text: Recent Review 2
+- img
+- paragraph: Slightly disappointed
+- text: The bucket is ok but the berring of pipe is not working properly, quality is poor and you wrote flipkart made , this thing decrease trust on the items on whi... Read full review
+- paragraph: Raj Chaudhary
+- img
+- paragraph: Certified Buyer
+- paragraph: 1 day ago
+- img "ZARQITO Microfiber 100 inch ExtensionPole with Cleaning Fan High Ceiling Wet and Dry Duster"
+- link "5. ZARQITO Microfiber 100 inch... 3.9 25,481 Ratings&1,276 Reviews ₹155 82% off":
+  - /url: /zarqito-microfiber-100-inch-extensionpole-cleaning-fan-high-ceiling-wet-dry-duster/p/itme7bcd1ecd7ea7?pid=DUSGNJUGFANTVJ9G&marketplace=FLIPKART&ov_redirect=true
+  - text: 5. ZARQITO Microfiber 100 inch... 3.9
+  - img
+  - text: 25,481 Ratings&1,276 Reviews ₹155 82% off
+- list:
+  - listitem: "Type: Duster"
+  - listitem: "Cleaning Type: Wet and Dry"
+  - listitem: "Brush Material: MICROBIFER"
+- text: Most Helpful Review 4
+- img
+- paragraph: Delightful
+- text: No need to take risk cleaning the high raise area many more..best is duster easily remove the dust from every where..it's works efficiently.
+- paragraph: Sabiya
+- img
+- paragraph: Certified Buyer
+- paragraph: Mar, 2023
+- text: Recent Review 5
+- img
+- paragraph: Super!
+- text: Very very very good product
+- paragraph: Sushanta paramanik
+- img
+- paragraph: Certified Buyer
+- paragraph: 3 days ago
+- contentinfo:
+  - heading "Cleaning Supplies Price List" [level=2]
+  - text: Cleaning Supplies Price
+  - list:
+    - listitem:
+      - link "PALAK Gamma with 360° Spinner 2 Microfiber heads & Twin Bucket Mop Set":
+        - /url: /palak-gamma-360-spinner-2-microfiber-heads-twin-bucket-mop-set/p/itm2249ffa1d613d?pid=MCWHBYK7WGFGGWEW&lid=LSTMCWHBYK7WGFGGWEWITIJLQ&marketplace=FLIPKART
+      - text: Rs. 500
+    - listitem:
+      - link "RadheTrade RT-Dustpan Plastic, Stainless Steel Dustpan":
+        - /url: /radhetrade-rt-dustpan-plastic-stainless-steel-dustpan/p/itm2e1d6cc4ed1d1?pid=DPNHA2WJYXWVYH49&lid=LSTDPNHA2WJYXWVYH49NRO4MU&marketplace=FLIPKART
+      - text: Rs. 435
+    - listitem:
+      - link "Spotzero by Milton Prime Spin Mop Stainless Steel Wringer Big Wheel, Puller Handle, Floor Cleaning Mop Set":
+        - /url: /spotzero-milton-prime-spin-mop-stainless-steel-wringer-big-wheel-puller-handle-floor-cleaning-set/p/itm0cc6070dfabd0?pid=HCSF5G3VWDKRK56Y&lid=LSTHCSF5G3VWDKRK56YMYICPM&marketplace=FLIPKART
+      - text: Rs. 1449
+    - listitem:
+      - link "Klenzzmo Kleenest Magic Eraser Cleaning Pack of 4 | Chemical-Free sponge wipe Sponge Wipe Sponge Wipe":
+        - /url: /klenzzmo-kleenest-magic-eraser-cleaning-pack-4-chemical-free-sponge-wipe/p/itmbc23a6e0aa139?pid=SRPHNZ8XJWHTAEXG&lid=LSTSRPHNZ8XJWHTAEXGPGBJX9&marketplace=FLIPKART
+      - text: Rs. 232
+    - listitem:
+      - link "VEWIKZY 3 in 1 Bathroom with Wiper, Tiles Cleaning Brush with Handle Microfibre Wet and Dry Brush":
+        - /url: /vewikzy-3-1-bathroom-wiper-tiles-cleaning-brush-handle-microfibre-wet-dry/p/itm5e11c3f0fec4e?pid=BMBGT68XGZ5YZ8K4&lid=LSTBMBGT68XGZ5YZ8K4TDTM1C&marketplace=FLIPKART
+      - text: Rs. 162
+    - listitem:
+      - link "Kanak Plastic Wet and Dry Brush":
+        - /url: /kanak-plastic-wet-dry-brush/p/itm5ce0470e5fda9?pid=BMBG6JR3G7BFW5JY&lid=LSTBMBG6JR3G7BFW5JYCXN2MN&marketplace=FLIPKART
+      - text: Rs. 178
+    - listitem:
+      - link "KLEVERDOT Mini Handheld Wet and Dry Desktop Mop Wet & Dry Mop":
+        - /url: /kleverdot-mini-handheld-wet-dry-desktop-mop/p/itmf34322717410b?pid=MCWHHJNH6CKP9AQM&lid=LSTMCWHHJNH6CKP9AQMC8IL9Z&marketplace=FLIPKART
+      - text: Rs. 141
+    - listitem:
+      - link "Flipkart SmartBuy SPRINKLER MICROFIBER REFILLS BLUE COLOR Mop Set":
+        - /url: /flipkart-smartbuy-sprinkler-microfiber-refills-blue-color-mop-set/p/itm3ae8964fd44a0?pid=HCSGNAQEGGFS8GAW&lid=LSTHCSGNAQEGGFS8GAWLSHMPV&marketplace=FLIPKART
+      - text: Rs. 646
+    - listitem:
+      - link "VEWIKZY Non-Scratch Dish Wash Cloth, Steel Wire Dish Cloth Scrub Pad":
+        - /url: /vewikzy-non-scratch-dish-wash-cloth-steel-wire-cloth-scrub-pad/p/itm889b7f37676ba?pid=SRPHD626CD2E7DNK&lid=LSTSRPHD626CD2E7DNKQQKJV5&marketplace=FLIPKART
+      - text: Rs. 118
+    - listitem:
+      - link "DR.VS Microfiber Cleaning Cloth Roll – Eco-Friendly Cloth for Kitchen Use 25 * 25 cm Dry Microfiber Cleaning Cloth":
+        - /url: /dr-vs-microfiber-cleaning-cloth-roll-eco-friendly-kitchen-use-25-cm-dry/p/itm422a3a6328fb4?pid=CLCHGHZ8ZD425BYA&lid=LSTCLCHGHZ8ZD425BYAXPHSBS&marketplace=FLIPKART
+      - text: Rs. 154
+  - text: This data was last updated on 2026/06/08
+  - heading "Related Searches" [level=2]
+  - paragraph:
+    - link "Home Cleaning Bathroom Accessories":
+      - /url: /home-cleaning-bathroom-accessories/pr?sid=rja
+  - paragraph:
+    - link "Mops":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/mops/pr?sid=rja,z2d,xrz
+    - text: "|"
+    - link "Dustbins":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/dustbins/pr?sid=rja,z2d,r6h
+    - text: "|"
+    - link "Brooms":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/brooms/pr?sid=rja,z2d,jms
+    - text: "|"
+    - link "Scrub Pads":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/scrub-pads/pr?sid=rja,z2d,eyn
+    - text: "|"
+    - link "Brushes":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/brushes/pr?sid=rja,z2d,rrc
+    - text: "|"
+    - link "Cleaning Gloves":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/cleaning-gloves/pr?sid=rja,z2d,jef
+    - text: "|"
+    - link "Cleaning Clothes":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/cleaning-clothes/pr?sid=rja,z2d,ns2
+    - text: "|"
+    - link "Toilet Brushes":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/toilet-brushes/pr?sid=rja,z2d,de2
+    - text: "|"
+    - link "Dusters":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/dusters/pr?sid=rja,z2d,hhd
+    - text: "|"
+    - link "Mop Set":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/mop-set/pr?sid=rja,z2d,ivx
+    - text: "|"
+    - link "Home Cleaning Sets":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/home-cleaning-sets/pr?sid=rja,z2d,jkj
+    - text: "|"
+    - link "Broom Holders":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/broom-holders/pr?sid=rja,z2d,ym2
+    - text: "|"
+    - link "Dustpans":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/dustpans/pr?sid=rja,z2d,hxi
+    - text: "|"
+    - link "Cleaning Wipes":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/cleaning-wipes/pr?sid=rja,z2d,m2i
+    - text: "|"
+    - link "Mop Head Refill":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/mop-head-refill/pr?sid=rja,z2d,19v
+    - text: "|"
+    - link "Wiper":
+      - /url: /home-cleaning-bathroom-accessories/cleaning-supplies/wiper/pr?sid=rja,z2d,5a8
+  - paragraph:
+    - link "Cloth Dryer Stands":
+      - /url: /home-improvement/home-utilities-and-organizers/laundry/cloth-dryer-stands/pr?sid=h1m,iee,3a7,yqq
+    - text: "|"
+    - link "Buckets":
+      - /url: /home-cleaning-bathroom-accessories/bathroom-accessories/buckets/pr?sid=rja,zqm,7rm
+    - text: "|"
+    - link "Kitchen Containers":
+      - /url: /kitchen-cookware-serveware/kitchen-storage-containers/kitchen-containers/pr?sid=upp,5ix,01e
+    - text: "|"
+    - link "Mats":
+      - /url: /home-furnishing/floor-coverings/mats/pr?sid=jra,kwq,exp
+    - text: "|"
+    - link "Garbage Bags":
+      - /url: /home-cleaning-bathroom-accessories/household-supplies/garbage-bags/pr?sid=rja,plv,kv5
+  - heading "Trending Searches" [level=2]
+  - paragraph:
+    - link "Electric Spin Scrubber":
+      - /url: /q/electric-spin-scrubber
+    - text: "|"
+    - link "Smart Waste Bins":
+      - /url: /q/smart-waste-bins
+    - text: "|"
+    - link "Floor Cleaning Machine":
+      - /url: /q/floor-cleaning-machine
+  - paragraph
+  - heading "Buy Housekeeping materials and Cleaning Equipments online:" [level=2]
+  - paragraph:
+    - text: Housekeeping materials like cleaning equipment, like
+    - link "laundry":
+      - /url: /household/housekeeping-laundry/laundry/pr?sid=r4l,gdi,fjg
+    - text: and washing equipment,
+    - link "ladders":
+      - /url: /home-improvement/hardware/ladders-step-ladders/pr?sid=a7v,alr,0ar
+    - text: ", stools, bathroom supplies and many more are necessities that every body needs to have at their homes. We often need a number of materials and supplies that can help you manage and clean your home much faster and efficiently. The place where you live remains organized and neat and this makes it easy for you to manage things at home. For instance, if you have a cloth dryer stand, laundry basket and such items at home, your clothes will not lie around and will be placed at one spot which makes it easy for you to pick them and organize them without much confusion."
+    - link "Prestige":
+      - /url: /household/housekeeping-laundry/home-cleaning/prestige~brand/pr?sid=r4l,gdi,g4v
+    - text: ","
+    - link "Thunderfit":
+      - /url: /household/housekeeping-laundry/home-cleaning/thunderfit~brand/pr?sid=r4l,gdi,g4v
+    - text: ","
+    - link "Spaze":
+      - /url: /household/housekeeping-laundry/home-cleaning/spaze~brand/pr?sid=r4l,gdi,g4v
+    - text: and the like are brands that manufacture strong, durable and good quality equipment that can be bought online at low prices.
+  - paragraph
+  - heading "Variety of home cleaning appliances and bathroom accessories for your house:" [level=2]
+  - paragraph:
+    - text: The very basic tool that every person uses at home to clean the floor of the house, unless it is laid with carpet, will be a broom. Once you clean the floor with a broom and clear it off all the dust and dirt, further cleaning happens by wiping with water and what you need for that is a mop set. Zibo, Samrah, Vimal, Hokipo are brands from where you can buy brooms and wipes or mop sets online. For cleaning other things at home like your
+    - link "furniture":
+      - /url: /furniture/pr?sid=anx
+    - text: ", upholstery,"
+    - link "gas stoves":
+      - /url: /household/stoves-hobs/gas-stoves/pr?sid=r4l,zgc,p7i
+    - text: ", etc, you can buy plastic wet and dry brushes, scrub pads, cleaning clothes and the like. Cover your hands and keep them clean by wearing wet or dry hand gloves while cleaning. People shop for dustbins online under different sized based on where they plan to place it. Bigger plastic dustbins are placed in the kitchen, the smaller ones can be placed in the bedrooms and other rooms so that it becomes convenient for you to dispose off the garbage into them."
+  - paragraph:
+    - text: A plethora of different types of
+    - link "bathroom accessories":
+      - /url: /household/housekeeping-laundry/bathroom-accessories/pr?sid=r4l,gdi,0sw
+    - text: are available online. They come in different colours and designs and you can choose appropriate accessories that will go with the colour of the floors, curtains and wall tiles of your bathroom. Buy buckets, tooth brush holders, steel and plastic wall shelves in pink, blue, green and many other colours to suit your bathrooms from brands like Tatay, Zoom, Royal Indian Craft and the like.
+  - paragraph
+  - heading "Laundry equipment, kitchen supplies and other accessories for your home:" [level=2]
+  - paragraph:
+    - text: Washing materials and equipment for cleaning and laundry are available online at cheap prices. All that you need to do your laundry starting from the water tube for the washing machine, the water tap adaptor, clothes dryer stand, clothesline to the washing products like Surf, Tide and stain removers like Vanish are all available here. You can also buy
+    - link "kitchen supplies":
+      - /url: /home-kitchen/kitchen-appliances/pr?sid=j9e,m38
+    - text: like dish cleaning gel, sponge holder , etc. from Amway, Fairy, Niks Cleanmax, Whirlpool among others.
+  - paragraph
+  - heading "Shop for Housekeeping and Laundry Products Online:" [level=2]
+  - paragraph: Housekeeping and laundry products comprise of detergents, surfactants, mops, toilet brushes, scrubbers, brooms, toilet paper, mop sets, and so on. These products are formulated to meet the demands of stain and soil removal, bleaching, fabric softening, conditioning,etc. They are also designed to meet the requirements under various types of water, temperatures, and different usage conditions as well. And almost all of us use these products on a regular basis, so the demand for them is always high.
+  - paragraph: And, depending on your requirement, you can shop for housekeeping and laundry products online. This way, you can take all the time you want in going through all the products and materials available online so that you can purchase those items that will benefit you the most. And by shopping online for them, you can also get them delivered to your doorstep, which ensures that you don’t even have to step outside the comfort of your home to make your purchases.
+  - paragraph: Make sure to use relevant keywords while searching for housekeeping and laundry products online so that you can get your hands on the best results. You can use keywords such as ‘vacuum storage bags’, ‘bathroom accessories’, ‘kitchen and household items’, and so much more.
+  - paragraph: Let’s talk about some of the housekeeping and laundry products that you can shop for online so that you don’t have to waste time, energy, and money on something that you can easily get hand-delivered to you almost immediately.
+  - paragraph: Examples of Housekeeping and Laundry Products
+  - paragraph: "1. Bleaches: The two most common types of bleaches (chlorine and oxygen) are available in the market as laundry cleaning aids. They are used to help you remove stubborn stains and brighten fabrics so that they can look almost as good as new. Bleaches convert the stains and soils into colourless, soluble particles that can be removed with the help of detergents, and washed away with water. Liquid chlorine bleach can be used to disinfect and deodorise fabrics for hygienic use. And, oxygen bleaches are colour-safe and gentle on almost all washable fabrics."
+  - paragraph: You can find popular brands of bleaches online such as Rin, Clorox, Naturalcare, and many more.
+  - paragraph: "2. Carpet shampoos: These products are designed for wet application only. So, if you’re a hundred percent sure that your carpets are marked safe for wet wash, you can go ahead and use these products. Carpet shampoos are highly effective in removing dirt, grease, coffee, ink stains, and more. These products also work as odour eliminators and neutralise harsh and unpleasant odours. This leaves your carpets smelling fresh."
+  - paragraph: You can find different brands of carpet shampoos online such as Natural Care, Dazlo, Astonish, Zep, CX, and so much more.
+  - paragraph: "3. Restroom cleaning system/ brush, sprays and inspection kits: You can find these kits at affordable prices online. They are highly reliable and durable as well - so you don’t have to worry about constantly replacing them. These kits are manufactured using good quality raw materials to ensure that you get complete value for the money you spend."
+  - paragraph: So, shop for housekeeping and laundry products online to rid your surroundings of pesky stains, odours, and discolouration. Happy shopping!
+  - paragraph
+  - heading "Trending Kitchen & Household Items:" [level=2]
+  - list:
+    - table:
+      - rowgroup:
+        - row "Pressure Cookers & Pans Stoves & Hobs":
+          - cell "Pressure Cookers & Pans":
+            - listitem:
+              - link "Pressure Cookers & Pans":
+                - /url: /household/pressure-cookers-pans/pr?sid=r4l,u3r
+          - cell "Stoves & Hobs":
+            - listitem:
+              - link "Stoves & Hobs":
+                - /url: /household/stoves-hobs/pr?sid=r4l,zgc
+        - row "Flasks & Casseroles Lights & Lamps":
+          - cell "Flasks & Casseroles":
+            - listitem:
+              - link "Flasks & Casseroles":
+                - /url: /household/flasks-casseroles/pr?sid=r4l,p4d
+          - cell "Lights & Lamps":
+            - listitem:
+              - link "Lights & Lamps":
+                - /url: /household/lighting/pr?sid=r4l,paf
+        - row "Tableware & Cutlery Coffee Mugs":
+          - cell "Tableware & Cutlery":
+            - listitem:
+              - link "Tableware & Cutlery":
+                - /url: /household/tableware-cutlery/pr?sid=r4l,vpn
+          - cell "Coffee Mugs":
+            - listitem:
+              - link "Coffee Mugs":
+                - /url: /household/coffee-mugs/pr?sid=r4l,ajv
+        - row "Bar & Glassware Containers & Bottles":
+          - cell "Bar & Glassware":
+            - listitem:
+              - link "Bar & Glassware":
+                - /url: /household/bar-glassware/pr?sid=r4l,wpg
+          - cell "Containers & Bottles":
+            - listitem:
+              - link "Containers & Bottles":
+                - /url: /household/containers-bottles/pr?sid=r4l,v2a
+        - row "Housekeeping & Laundry Dinnerware & Crockery":
+          - cell "Housekeeping & Laundry":
+            - listitem:
+              - link "Housekeeping & Laundry":
+                - /url: /household/housekeeping-laundry/pr?sid=r4l,gdi
+          - cell "Dinnerware & Crockery":
+            - listitem:
+              - link "Dinnerware & Crockery":
+                - /url: /household/dinnerware-crockery/pr?sid=r4l,afn
+        - row "Cookware":
+          - cell "Cookware":
+            - listitem:
+              - link "Cookware":
+                - /url: /household/cookware/pr?sid=r4l,c7t
+  - heading "Trending Kitchen & Household Items Brands:" [level=2]
+  - list:
+    - table:
+      - rowgroup:
+        - row "Wonderchef Kitchen & Household Items Milton Kitchen & Household Items":
+          - cell "Wonderchef Kitchen & Household Items":
+            - listitem:
+              - link "Wonderchef Kitchen & Household Items":
+                - /url: /household/wonderchef~brand/pr?sid=r4l
+          - cell "Milton Kitchen & Household Items":
+            - listitem:
+              - link "Milton Kitchen & Household Items":
+                - /url: /household/milton~brand/pr?sid=r4l
+        - row "Tupperware Kitchen & Household Items Cello Kitchen & Household Items":
+          - cell "Tupperware Kitchen & Household Items":
+            - listitem:
+              - link "Tupperware Kitchen & Household Items":
+                - /url: /household/tupperware~brand/pr?sid=r4l
+          - cell "Cello Kitchen & Household Items":
+            - listitem:
+              - link "Cello Kitchen & Household Items":
+                - /url: /household/cello~brand/pr?sid=r4l
+        - row "Borosil Kitchen & Household Items Prestige Kitchen & Household Items":
+          - cell "Borosil Kitchen & Household Items":
+            - listitem:
+              - link "Borosil Kitchen & Household Items":
+                - /url: /household/borosil~brand/pr?sid=r4l
+          - cell "Prestige Kitchen & Household Items":
+            - listitem:
+              - link "Prestige Kitchen & Household Items":
+                - /url: /household/prestige~brand/pr?sid=r4l
+  - paragraph
+  - text: ABOUT
+  - link "Contact Us":
+    - /url: /helpcentre?otracker=footer_navlinks
+  - link "About Us":
+    - /url: https://corporate.flipkart.net/corporate-home
+  - link "Careers":
+    - /url: https://www.flipkartcareers.com/?otracker=footer_navlinks
+  - link "Flipkart Stories":
+    - /url: http://stories.flipkart.com/?otracker=footer_navlinks
+  - link "Press":
+    - /url: http://stories.flipkart.com/category/top-stories/news/
+  - link "Corporate Information":
+    - /url: /corporate-information
+  - text: GROUP COMPANIES
+  - link "Myntra":
+    - /url: https://www.myntra.com/
+  - link "Cleartrip":
+    - /url: https://www.cleartrip.com/
+  - link "Shopsy":
+    - /url: https://www.shopsy.in/
+  - text: HELP
+  - link "Payments":
+    - /url: /pages/payments
+  - link "Shipping":
+    - /url: /pages/shipping
+  - link "Cancellation & Returns":
+    - /url: /helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG
+  - link "FAQ":
+    - /url: /helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG
+  - text: CONSUMER POLICY
+  - link "Cancellation & Returns":
+    - /url: /pages/returnpolicy?otracker=footer_navlinks
+  - link "Terms Of Use":
+    - /url: /pages/terms?otracker=footer_navlinks
+  - link "Security":
+    - /url: /pages/paymentsecurity?otracker=footer_navlinks
+  - link "Privacy":
+    - /url: /pages/privacypolicy?otracker=footer_navlinks
+  - link "Sitemap":
+    - /url: /sitemap?otracker=footer_navlinks
+  - link "Grievance Redressal":
+    - /url: /pages/grievance-redressal-mechanism?otracker=footer_navlinks
+  - link "EPR Compliance":
+    - /url: /pages/ewaste-compliance-tnc?otracker=footer_navlinks
+  - link "FSSAI Food Safety Connect App":
+    - /url: https://fssai.gov.in/cms/food-safety-connect.php
+  - text: "Mail Us:"
+  - paragraph: Flipkart Internet Private Limited,
+  - paragraph: Buildings Alyssa, Begonia &
+  - paragraph: Clove Embassy Tech Village,
+  - paragraph: Outer Ring Road, Devarabeesanahalli Village,
+  - paragraph: Bengaluru, 560103,
+  - paragraph: Karnataka, India
+  - text: Social
+  - link:
+    - /url: https://www.facebook.com/flipkart
+    - img
+  - link:
+    - /url: https://www.twitter.com/flipkart
+    - img
+  - link:
+    - /url: https://www.youtube.com/flipkart
+    - img
+  - link:
+    - /url: https://www.instagram.com/flipkart
+    - img
+  - text: "Registered Office Address:"
+  - paragraph: Flipkart Internet Private Limited,
+  - paragraph: Buildings Alyssa, Begonia &
+  - paragraph: Clove Embassy Tech Village,
+  - paragraph: Outer Ring Road, Devarabeesanahalli Village,
+  - paragraph: Bengaluru, 560103,
+  - paragraph: Karnataka, India
+  - paragraph: "CIN : U51109KA2012PTC066107"
+  - paragraph:
+    - text: "Telephone:"
+    - link "044-45614700":
+      - /url: tel:044-45614700
+    - text: /
+    - link "044-67415800":
+      - /url: tel:044-67415800
+  - img
+  - link "Become a Seller":
+    - /url: https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect
+  - img
+  - link "Advertise":
+    - /url: https://brands.flipkart.com
+  - img
+  - link "Gift Cards":
+    - /url: /the-gift-card-store?otracker=footer_navlinks
+  - img
+  - link "Help Center":
+    - /url: /helpcentre?otracker=footer_navlinks
+  - text: © 2007-2026 Flipkart.com
+  - img
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | test('test', async ({ page }) => {
+  4  |   await page.goto('https://www.flipkart.com/');
+  5  |   await page.getByRole('button', { name: '✕' }).click();
+  6  |   await page.getByRole('link', { name: 'Home' }).click();
+  7  |   await page.getByRole('link', { name: 'Cleaning' }).click();
+> 8  |   await expect(page.locator('#container')).toContainText('ANKZWEE Plastic Wet and Dry Brush');
+     |                                            ^ Error: expect(locator).toContainText(expected) failed
+  9  |   await expect(page.getByRole('link', { name: 'UNETRI-PRO Clear Plastic' }).first()).toBeVisible();
+  10 |   await expect(page.locator('#container')).toMatchAriaSnapshot(`
+  11 |     - link "DM SPECIALLY FOR SPECIALIST HDPE Disposable Poly Gloves...":
+  12 |       - /url: /dm-specially-specialist-hdpe-disposable-poly-gloves-100-pcs-food-grade-transparent-wet-dry-glove-set/p/itmaab98003dda84?pid=CLGHH2GPDYKWN7DA&lid=LSTCLGHH2GPDYKWN7DAAMQHRB&marketplace=FLIPKART&store=rja%2Fz2d&srno=b_1_3&otracker=browse&fm=neo%2Fmerchandising&iid=en_QsCiZZFQkLgYgqwCU3fVTy72C0ck2q0KLP5Evaa02yppXdgDaA2PlZCNZxfuOJ8cg9_yx5takpS7NlTOAQN_PA%3D%3D&ppt=browse&ppn=browse&ssid=78tl6eyyj40000001780900278158&ov_redirect=true&ov_redirect=true
+  13 |     `);
+  14 | });
+```
